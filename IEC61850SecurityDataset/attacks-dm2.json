@@ -1,0 +1,8 @@
+[
+    {
+        "id": "Data Manipulation 2",
+        "attack_point": [],
+        "description": "- LIED11 injects a malicious GOOSE frame (No. 597) by toggling the status of the circuit breaker from FALSE to TRUE ('tripped') at time= 12.3 sec",
+        "ipalid": 536
+    }
+]

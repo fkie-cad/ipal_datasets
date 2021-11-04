@@ -1,0 +1,9 @@
+[
+    {
+        "id": "Send_a_fake_command_Modbus_6RTU_with_operate",
+        "attack_point": [],
+        "description": "11 minutes of regular Modbus traffic including polling and manual operation 1 MTU, 6 RTU and 10 seconds polling interval. Also includes sending a Modbus write operation from a compromised RTU using Metasploit proxy functionality and the proxychains tool",
+        "start": 1424799610.066448000,
+        "end": 1424799610.460656000
+    }
+]

@@ -1,0 +1,8 @@
+[
+    {
+        "id": "Message Suppression 4",
+        "attack_point": [],
+        "description": "- LIED10 injects a GOOSE frame (No. 556) with sqNum=9999 at time= 12.7 sec",
+        "ipalid": 533
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "id": "CnC_uploading_exe_modbus_6RTU_with_operate",
+        "attack_point": [],
+        "description": "1 minute of regular Modbus traffic including polling and manual operation 1 MTU, 6 RTU and 10 seconds polling interval. Also includes sending an EXE file from a compromised RTU to another compromised RTU through a Metasploit meterpreter channel",
+        "start": 1424798344.961695000,
+        "end": 1424798346.663054000
+    },
+    {
+        "id": "CnC_uploading_exe_modbus_6RTU_with_operate",
+        "attack_point": [],
+        "description": "1 minute of regular Modbus traffic including polling and manual operation 1 MTU, 6 RTU and 10 seconds polling interval. Also includes sending an EXE file from a compromised RTU to another compromised RTU through a Metasploit meterpreter channel",
+        "start": 1424798364.808206000,
+        "end": 1424798366.678704000
+    }
+]

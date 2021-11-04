@@ -1,0 +1,3 @@
+[submodule "EnergyDataset/manipulateTraces"]
+	path = EnergyDataset/manipulateTraces
+	url = https://github.com/jjchromik/manipulateTraces

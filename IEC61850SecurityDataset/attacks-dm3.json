@@ -1,0 +1,44 @@
+[
+    {
+        "id": "Data Manipulation 3",
+        "attack_point": [],
+        "description": "- LIED11 replays previously valid GOOSE frames (No. 2734 and No. 2764) containing 'open' circuit breaker information at time= 53.8 sec and 54.8 sec",
+        "ipalid": 2733
+    },
+    {
+        "id": "Data Manipulation 3",
+        "attack_point": [],
+        "description": "- LIED11 replays previously valid GOOSE frames (No. 2734 and No. 2764) containing 'open' circuit breaker information at time= 53.8 sec and 54.8 sec",
+        "ipalid": 2763
+    },
+    {
+        "id": "Data Manipulation 3",
+        "attack_point": [],
+        "description": "- LIED22 replays previously captured fault current measurements (No. 7847, No. 7901, No. 7955, No. 8009, and No. 8063) between time= 155.8 sec and 159.88 sec",
+        "ipalid": 7684
+    },
+    {
+        "id": "Data Manipulation 3",
+        "attack_point": [],
+        "description": "- LIED22 replays previously captured fault current measurements (No. 7847, No. 7901, No. 7955, No. 8009, and No. 8063) between time= 155.8 sec and 159.88 sec",
+        "ipalid": 7900
+    },
+    {
+        "id": "Data Manipulation 3",
+        "attack_point": [],
+        "description": "- LIED22 replays previously captured fault current measurements (No. 7847, No. 7901, No. 7955, No. 8009, and No. 8063) between time= 155.8 sec and 159.88 sec",
+        "ipalid": 7954
+    },
+    {
+        "id": "Data Manipulation 3",
+        "attack_point": [],
+        "description": "- LIED22 replays previously captured fault current measurements (No. 7847, No. 7901, No. 7955, No. 8009, and No. 8063) between time= 155.8 sec and 159.88 sec",
+        "ipalid": 8008
+    },
+    {
+        "id": "Data Manipulation 3",
+        "attack_point": [],
+        "description": "- LIED22 replays previously captured fault current measurements (No. 7847, No. 7901, No. 7955, No. 8009, and No. 8063) between time= 155.8 sec and 159.88 sec",
+        "ipalid": 8062
+    }
+]

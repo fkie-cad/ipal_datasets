@@ -1,0 +1,14 @@
+[
+    {
+        "id": "Message Suppression 2",
+        "attack_point": [],
+        "description": "- LIED10 replays a GOOSE frame (No. 534) with stNum=9999 and sqNum=0 at time= 10.4 sec.",
+        "ipalid": 533
+    },
+    {
+        "id": "Message Suppression 2",
+        "attack_point": [],
+        "description": "- LIED12 replays a GOOSE frame (No. 774) with stNum=5 and sqNum=0 at time= 15.5 sec.",
+        "ipalid": 773
+    }
+]

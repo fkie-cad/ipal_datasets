@@ -1,0 +1,20 @@
+[
+    {
+        "id": "Data Manipulation 1",
+        "attack_point": [],
+        "description": "- LIED10 injects a GOOSE frame (No. 588) containing a value of 380 to the current magnitude of phase A at time= 11.9 sec.",
+        "ipalid": 533
+    },
+    {
+        "id": "Data Manipulation 1",
+        "attack_point": [],
+        "description": "- LIED10 injects a GOOSE frame (No. 1175) containing a value of 270 to the current magnitude of phase B at time= 22.5 sec.",
+        "ipalid": 1064
+    },
+    {
+        "id": "Data Manipulation 1",
+        "attack_point": [],
+        "description": "- LIED10 injects a GOOSE frame (No. 1771) containing a value of 360 to the current magnitude of phase C at time= 33.1 sec.",
+        "ipalid": 1607
+    }
+]

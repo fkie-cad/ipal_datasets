@@ -1,0 +1,100 @@
+[
+    {
+        "id": "1",
+        "attack_point": ["state;1_MV_001_STATUS"],
+        "description": "Motorized valve 1 MV 001 is mali- ciously turned on, this causes an over- flow on primary tank should reflect on 1LT001 and 1FIT001",
+        "start": 1507570897,
+        "end": 1507572397
+    },
+    {
+        "id": "2",
+        "attack_point": ["state;1_AIT_001_PV"],
+        "description": "Flow Indication Transmitter 1 FIT 001 is tuned off, a false reading is seen by PLC for 1 FIT 001. This will turn chemical dosing pump on while leaving the water level in primary tank constant. Consequently the attacker is increasing the level of chemicals inside water.",
+        "start": 1507624847,
+        "end": 1507625437
+    },
+    {
+        "id": "3-4",
+        "attack_point": ["state;1_AIT_001_PV"],
+        "description": "Stealthy attack. Attacker aims to drain elevated reservoir 2 LT 002. This is done controlling manipulat- ing tank level draining and filling speed. 1 AIT 001 Moreover the at- tacker changes the reading seen by wa- ter quality sensor, this causes the raw water tank drain.",
+        "start": 1507626697,
+        "end": 1507628437
+    },
+    {
+        "id": "5",
+        "attack_point": ["state;2_MCV_101_CO", "state;2_MCV_201_CO", "state;2_MCV_301_CO", "state;2_MCV_401_CO", "state;2_MCV_501_CO", "state;2_MCV_601_CO"],
+        "description": "Turn off valves to consumers 2 MCV 101, 2 MCV 201, 2 MCV 301, 2 MCV 401, 2 MCV 501, 2 MCV 601 consumers will receive no more water.",
+        "start": 1507628837,
+        "end": 1507629687
+    },
+    {
+        "id": "6",
+        "attack_point": ["state;2_MCV_101_CO", "state;2_MCV_201_CO"],
+        "description": "",
+        "start": 1507636567,
+        "end": 1507637237
+    },
+    {
+        "id": "7",
+        "attack_point": ["state;1_AIT_002_PV"],
+        "description": "Supply contaminated water to the Elevated Reservoir tank by setting 1 AIT 002 to 6 to drain primary grid because of contamination. at the same time open 2 MV 003",
+        "start": 1507640694,
+        "end": 1507641392
+    },
+    {
+        "id": "8",
+        "attack_point": ["state;2_MCV_007_CO"],
+        "description": "Malicously open 2 MCV 007 in order to produce water leakage before wa- ter reaches consumers. this attack should be reflected in 2PIT002 and 2FT002 (unsuccessful)",
+        "start": 1507650997,
+        "end": 1507651577
+    },
+    {
+        "id": "9",
+        "attack_point": ["state;1_P_006_STATUS"],
+        "description": "Turn on 1 P 006 maliciously to cause pipe burst.",
+        "start": 1507674247,
+        "end": 1507674449
+    },
+    {
+        "id": "10",
+        "attack_point": ["state;1_MV_001_STATUS"],
+        "description": "Damage 1 MV 001 and raw water pump to drain Elevated Reservoir tank.",
+        "start": 1507713097,
+        "end": 1507713184
+    },
+    {
+        "id": "11",
+        "attack_point": ["state;2_MCV_007_CO"],
+        "description": "Malicously open 2 MCV 007 in order to produce water leakage before wa- ter reaches consumers. this attack should be reflected in 2PIT002 and 2FT002 (unsuccessful)",
+        "start": 1507714471,
+        "end": 1507715277
+    },
+    {
+        "id": "12",
+        "attack_point": ["state;2_MCV_007_CO"],
+        "description": "Malicously open 2 MCV 007 in order to produce water leakage before wa- ter reaches consumers. this attack should be reflected in 2PIT002 and 2FT002 (unsuccessful)",
+        "start": 1507715543,
+        "end": 1507716217
+    },
+    {
+        "id": "13",
+        "attack_point": ["Booster setpoint pressure"],
+        "description": "Reducing Booster set point pressure, this causes intermittent water supply to consumers this should be re- flected in 2FIT003 and 2PIT003",
+        "start": 1507716937,
+        "end": 1507717297
+    },
+    {
+        "id": "14",
+        "attack_point": ["chemical dosing"],
+        "description": "stop chemical dosing to the raw water which is supplied to the primary grid tank tank",
+        "start": 1507717957,
+        "end": 1507718533
+    },
+    {
+        "id": "15",
+        "attack_point": [],
+        "description": "Stealthy attack, inverse of attack 3",
+        "start": 1507729387,
+        "end": 1507730017
+    }
+]

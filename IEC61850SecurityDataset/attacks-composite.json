@@ -1,0 +1,14 @@
+[
+    {
+        "id": "CompositeAttack",
+        "attack_point": [],
+        "description": "- LIED11 injects a GOOSE frame (No. 542) with stNum=9999 and sqNum=0 at time=11.3 sec",
+        "ipalid": 536
+    },
+    {
+        "id": "CompositeAttack",
+        "attack_point": [],
+        "description": "LIED11 modifies the Boolean value of CB-11 from ‘1’ to ‘0’ and injects the modified GOOSE frame (No. 792) at time=16.3 sec.",
+        "ipalid": 773
+    }
+]

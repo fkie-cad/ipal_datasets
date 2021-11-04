@@ -1,0 +1,261 @@
+[
+    {
+        "id": "1",
+        "attack_point": ["state;MV101"],
+        "description": "Open MV101",
+        "start": 1451294954,
+        "end": 1451295893
+    },
+    {
+        "id": "2",
+        "attack_point": ["state;P102"],
+        "description": "Turn on P102",
+        "start": 1451296268,
+        "end": 1451296710
+    },
+    {
+        "id": "3",
+        "attack_point": ["state;LIT101"],
+        "description": "Increase by 1 mm every second",
+        "start": 1451298120,
+        "end": 1451298502
+    },
+    {
+        "id": "4",
+        "attack_point": ["state;MV504"],
+        "description": "Open MV504",
+        "start": 1451299659,
+        "end": 1451300048
+    },
+    {
+        "id": "6",
+        "attack_point": ["state;AIT202"],
+        "description": "Set value of AIT202 as 6",
+        "start": 1451300455,
+        "end": 1451300650
+    },
+    {
+        "id": "7",
+        "attack_point": ["state;LIT301"],
+        "description": "Water level increased above HH",
+        "start": 1451300905,
+        "end": 1451301333
+    },
+    {
+        "id": "8",
+        "attack_point": ["state;DPIT301"],
+        "description": "Set value of DPIT as >40kpa",
+        "start": 1451304610,
+        "end": 1451305573
+    },
+    {
+        "id": "10",
+        "attack_point": ["state;FIT401"],
+        "description": "Set value of FIT401 as <0.7",
+        "start": 1451308580,
+        "end": 1451308740
+    },
+    {
+        "id": "11",
+        "attack_point": ["state;FIT401"],
+        "description": "Set value of FIT401 as 0",
+        "start": 1451308740,
+        "end": 1451309300
+    },
+    {
+        "id": "-1",
+        "attack_point": [],
+        "description": "Unkown attack, Missing from list of attacks",
+        "start": 1451367000,
+        "end": 1451367720
+    },
+    {
+        "id": "13",
+        "attack_point": ["state;MV304"],
+        "description": "Close MV304",
+        "start": 1451383885,
+        "end": 1451384117
+    },
+    {
+        "id": "14",
+        "attack_point": ["state;MV303"],
+        "description": "Do not let MV303 open",
+        "start": 1451385340,
+        "end": 1451385770
+    },
+    {
+        "id": "16",
+        "attack_point": ["state;LIT301"],
+        "description": "Decrease LIT301 water level by 1 mm each second",
+        "start": 1451386645,
+        "end": 1451386920
+    },
+    {
+        "id": "17",
+        "attack_point": ["state;MV303"],
+        "description": "Do not let MV303 open",
+        "start": 1451396292,
+        "end": 1451397008
+    },
+    {
+        "id": "19",
+        "attack_point": ["state;AIT504"],
+        "description": "Set value of AIT504 to 16 uS/cm",
+        "start": 1451409043,
+        "end": 1451409301
+    },
+    {
+        "id": "20",
+        "attack_point": ["state;AIT504"],
+        "description": "Set value of AIT504 to 255 uS/cm",
+        "start": 1451409343,
+        "end": 1451409737
+    },
+    {
+        "id": "21",
+        "attack_point": ["state;MV101", "state;LIT101"],
+        "description": "Keep MV101 on continuously; Value of LIT101 set as 700 mm",
+        "start": 1451410200,
+        "end": 1451410920
+    },
+    {
+        "id": "22",
+        "attack_point": ["state;UV401", "state;AIT502", "state;P501"],
+        "description": "Stop UV401; Value of AIT502 set as 150; Force P501 to remain on",
+        "start": 1451426118,
+        "end": 1451426580
+    },
+    {
+        "id": "23",
+        "attack_point": ["state;P602", "state;DIT301", "state;MV302"],
+        "description": "Value of DPIT301 set to >0.4 bar; Keep MV302 open; Keep P602 closed ",
+        "start": 1451436154,
+        "end": 1451436850
+    },
+    {
+        "id": "24",
+        "attack_point": ["state;P203", "state;P205"],
+        "description": "Turn off P203 and P205",
+        "start": 1451465468,
+        "end": 1451465788
+    },
+    {
+        "id": "25",
+        "attack_point": ["state;LIT401", "state;P401"],
+        "description": "Set value of LIT401 as 1000; P402 is kept on",
+        "start": 1451466110,
+        "end": 1451466721
+    },
+    {
+        "id": "26",
+        "attack_point": ["state;P101", "state;LIT301"],
+        "description": "P101 is turned on continuously; Set value of LIT301 as 801mm",
+        "start": 1451491496,
+        "end": 1451492940
+    },
+    {
+        "id": "27",
+        "attack_point": ["state;P302", "state;LIT401"],
+        "description": "Keep P302 on continuously; Value of LIT401 set as 600mm till 1:26:01",
+        "start": 1451521028,
+        "end": 1451522718
+    },
+    {
+        "id": "28",
+        "attack_point": ["state;P302"],
+        "description": "Close P302",
+        "start": 1451522719,
+        "end": 1451556927
+    },
+    {
+        "id": "29",
+        "attack_point": ["state;P201", "state;P203", "state;P205"],
+        "description": "Turn on P201; Turn on P203; Turn on P205",
+        "start": 1451572320,
+        "end": 1451572440
+    },
+    {
+        "id": "30",
+        "attack_point": ["state;LIT101", "state;P101", "state;MV201"],
+        "description": "Turn P101 on continuously; Turn MV101 on continuously; Set value of LIT101 as 700mm; P102 started itself because LIT301 level became low",
+        "start": 1451573260,
+        "end": 1451574430
+    },
+    {
+        "id": "31",
+        "attack_point": ["state;LIT401"],
+        "description": "Set LIT401 to less than L",
+        "start": 1451595934,
+        "end": 1451596300
+    },
+    {
+        "id": "32",
+        "attack_point": ["state;LIT301"],
+        "description": "Set LIT301 to above HH",
+        "start": 1451640960,
+        "end": 1451641560
+    },
+    {
+        "id": "33",
+        "attack_point": ["state;LIT101"],
+        "description": "Set LIT101 to above H",
+        "start": 1451654472,
+        "end": 1451654915
+    },
+    {
+        "id": "34",
+        "attack_point": ["state;P101"],
+        "description": "Turn P101 off",
+        "start": 1451664760,
+        "end": 1451664860
+    },
+    {
+        "id": "35",
+        "attack_point": ["state;P101", "state;P102"],
+        "description": "Turn P101 off; Keep P102 off",
+        "start": 1451665136,
+        "end": 1451665616
+    },
+    {
+        "id": "36",
+        "attack_point": ["state;LIT101"],
+        "description": "Set LIT101 to less than LL",
+        "start": 1451682961,
+        "end": 1451683500
+    },
+    {
+        "id": "37",
+        "attack_point": ["state;P501", "state;FIT502"],
+        "description": "Close P501; Set value of FIT502 to 1.29 at 11:18:36",
+        "start": 1451729822,
+        "end": 1451730290
+    },
+    {
+        "id": "38",
+        "attack_point": ["state;AIT402", "state;AIT502"],
+        "description": "Set value of AIT402 as 260; Set value of AIT502 to 260",
+        "start": 1451730698,
+        "end": 1451730978
+    },
+    {
+        "id": "39",
+        "attack_point": ["state;FIT401", "state;AIT502"],
+        "description": "Set value of FIT401 as 0.5; Set value of AIT502 as 140 mV",
+        "start": 1451731428,
+        "end": 1451731828
+    },
+    {
+        "id": "40",
+        "attack_point": ["state;FIT401"],
+        "description": "Set value of FIT401 as 0",
+        "start": 1451731902,
+        "end": 1451732198
+    },
+    {
+        "id": "41",
+        "attack_point": ["state;LIT301"],
+        "description": "decrease LIT301 value by 0.5 mm per second",
+        "start": 1451736782,
+        "end": 1451738471
+    }
+]

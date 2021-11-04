@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Wolsing"
+  given-names: "Konrad"
+- family-names: "Wagner"
+  given-names: "Eric"
+  orcid: "https://orcid.org/0000-0003-3211-1015"
+- family-names: "Saillard"
+  given-names: "Antoine"
+- family-names: "Martin"
+  given-names: "Henze"
+  orcid: "https://orcid.org/0000-0001-8717-2523"
+title: "IPAL - Datasets"
+version: 1.0.0
+doi: TODO
+date-released: 2021-11-05
+url: "https://github.com/fkie-cad/ipal_datasets"
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: "Wolsing"
+    given-names: "Konrad"
+  - family-names: "Wagner"
+    given-names: "Eric"
+    orcid: "https://orcid.org/0000-0003-3211-1015"
+  - family-names: "Saillard"
+    given-names: "Antoine"
+  - family-names: "Martin"
+    given-names: "Henze"
+    orcid: "https://orcid.org/0000-0001-8717-2523"
+  doi: "TODO"
+  journal: "ArXiv"
+  month: 11
+  title: "IPAL: Breaking up Silos of Protocol-dependent and Domain-specific Industrial Intrusion Detection Systems"
+  year: 2021

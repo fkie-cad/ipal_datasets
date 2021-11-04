@@ -1,0 +1,30 @@
+[
+    {
+        "id": "Moving_two_files_Modbus_6RTU",
+        "attack_point": [],
+        "description": "3 minutes of regular Modbus traffic including polling only - 1 MTU, 6 RTU and 10 seconds polling interval",
+        "start": 1424796541.485530000,
+        "end": 1424796541.944954000
+    },
+    {
+        "id": "Moving_two_files_Modbus_6RTU",
+        "attack_point": [],
+        "description": "3 minutes of regular Modbus traffic including polling only - 1 MTU, 6 RTU and 10 seconds polling interval",
+        "start": 1424796563.555457000,
+        "end": 1424796563.915793000
+    },
+    {
+        "id": "Moving_two_files_Modbus_6RTU",
+        "attack_point": [],
+        "description": "3 minutes of regular Modbus traffic including polling only - 1 MTU, 6 RTU and 10 seconds polling interval",
+        "start": 1424796602.183031000,
+        "end": 1424796602.634027000
+    },
+    {
+        "id": "Moving_two_files_Modbus_6RTU",
+        "attack_point": [],
+        "description": "3 minutes of regular Modbus traffic including polling only - 1 MTU, 6 RTU and 10 seconds polling interval",
+        "start": 1424796624.196177000,
+        "end": 1424796627.352764000
+    }
+]
