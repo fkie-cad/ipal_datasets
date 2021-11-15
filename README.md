@@ -23,7 +23,7 @@ This repository contains a collection of datasets for evaluating industrial IDS.
 
 ##### Prerequisites
 
-Transcribing the datasets requires the `ipal-transcriber` and `shark` to be installed (see [IPAL - Transcriber](https://github.com/fkie-cad/ipal_transcriber) and https://tshark.dev/setup/install/).
+Transcribing the datasets requires the `ipal-transcriber` and `tshark` to be installed (see [IPAL - Transcriber](https://github.com/fkie-cad/ipal_transcriber) and https://tshark.dev/setup/install/).
 
 ##### Install
 
