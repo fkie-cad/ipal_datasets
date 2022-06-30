@@ -3,17 +3,19 @@ message: "If you use this software, please cite it as below."
 authors:
 - family-names: "Wolsing"
   given-names: "Konrad"
+  orcid: "https://orcid.org/0000-0002-7571-0555"
 - family-names: "Wagner"
   given-names: "Eric"
   orcid: "https://orcid.org/0000-0003-3211-1015"
 - family-names: "Saillard"
   given-names: "Antoine"
+  orcid: "https://orcid.org/0000-0002-8376-2726"
 - family-names: "Martin"
   given-names: "Henze"
   orcid: "https://orcid.org/0000-0001-8717-2523"
 title: "IPAL - Datasets"
 version: 1.1.0
-doi: TODO
+doi: https://doi.org/10.1145/3545948.3545968
 date-released: 2022-04-20
 url: "https://github.com/fkie-cad/ipal_datasets"
 preferred-citation:
@@ -21,16 +23,18 @@ preferred-citation:
   authors:
   - family-names: "Wolsing"
     given-names: "Konrad"
+    orcid: "https://orcid.org/0000-0002-7571-0555"
   - family-names: "Wagner"
     given-names: "Eric"
     orcid: "https://orcid.org/0000-0003-3211-1015"
   - family-names: "Saillard"
     given-names: "Antoine"
+  orcid: "https://orcid.org/0000-0002-8376-2726"
   - family-names: "Martin"
     given-names: "Henze"
     orcid: "https://orcid.org/0000-0001-8717-2523"
-  doi: "TODO"
-  journal: "ArXiv"
-  month: 11
+  doi: https://doi.org/10.1145/3545948.3545968
+  journal: In 25th International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2022)
+  month: 10
   title: "IPAL: Breaking up Silos of Protocol-dependent and Domain-specific Industrial Intrusion Detection Systems"
-  year: 2021
+  year: 2022

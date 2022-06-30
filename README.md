@@ -21,6 +21,10 @@ This repository contains a collection of datasets for evaluating industrial IDS.
 | SWaT                    | State               | Attack dataset has a 81s gap which we fill with the previous state. The first 1800s are often skipped in literature. The version 0 of SWaT has a slightly different start of the training data. | [iTrust](https://itrust.sutd.edu.sg/itrust-labs-home/itrust-labs_swat/) |
 | TEP-PASAD               | State               | The dataset consists of 5 different scenarios. Each scenario has its own training and test part combined in one single file. | [Github](https://github.com/mikeliturbe/pasad/tree/master/data) |
 | WADI                    | State               | WADI has a large gap in the training data of ~73h. Note: we use the row number as index for the timestamp since WADI has a challenging time notation. | [iTrust](https://itrust.sutd.edu.sg/itrust-labs-home/itrust-labs_wadi/) |
+###### Publications
+
+- Konrad Wolsing, Eric Wagner, Antoine Saillard, and Martin Henze. 2022. IPAL: Breaking up Silos of Protocol-dependent and Domain-specific In- dustrial Intrusion Detection Systems. In 25th International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2022), October 26–28, 2022, Limassol, Cyprus. ACM, New York, NY, USA, 17 pages. [https://doi.org/10.1145/3545948.3545968 ](https://doi.org/10.1145/3545948.3545968)
+- Wolsing, Konrad, Eric Wagner, and Martin Henze. "Poster: Facilitating Protocol-independent Industrial Intrusion Detection Systems." *Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security*. 2020 [https://doi.org/10.1145/3372297.3420019](https://doi.org/10.1145/3372297.3420019)
 
 ## Getting Started
 
