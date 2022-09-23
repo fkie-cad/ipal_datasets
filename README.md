@@ -13,6 +13,7 @@ This repository contains a collection of datasets for evaluating industrial IDS.
 | HAI                     | State               | Dataset contains three training and five test files. Train and test are not in linear time order and have overlapping time-regions. | [Github](https://github.com/icsdataset/hai/tree/master/hai-21.03) |
 | IEC61850SecurityDataset | Packet (Goose)      |                                                              | [Github](https://github.com/smartgridadsc/IEC61850SecurityDataset) |
 | Lemay                   | Packet (Modbus)     | Most attacks are not performed with Modbus and use different protocols not relevant for the transcriber. | [Paper](https://www.usenix.org/conference/cset16/workshop-program/presentation/lemay) [Github](https://github.com/antoine-lemay/Modbus_dataset) |
+| MorrisDS1               | State     | There exist different versions of the datset (binary, ternary, or multiclass labels). We use the multi-class dataset. | [Website](https://sites.google.com/a/uah.edu/tommy-morris-uah/ics-data-sets) |
 | MorrisDS4               | Packet (Modbus)     | There are minor differences between the Raw and Arff dataset. These differences affect only the attack packets. Default: Use the Arff dataset. | [Website](https://sites.google.com/a/uah.edu/tommy-morris-uah/ics-data-sets) |
 | QUT\_DNP3              | Packet (DNP3, GOOSE)         |  | [Git](https://github.com/qut-infosec/2017QUT_DNP3) [Thesis](https://eprints.qut.edu.au/121760/1/Nicholas_Rodofile_Thesis.pdf) |
 | QUT\_S7\_Myers            | Packet (S7).        |  TODO: Check Rules | [Dataset](https://cloudstor.aarnet.edu.au/plus/index.php/s/9qFfeVmfX7K5IDH) [Paper](https://research-repository.griffith.edu.au/bitstream/handle/10072/385711/FOO229943.pdf?sequence=1) |
@@ -24,7 +25,7 @@ This repository contains a collection of datasets for evaluating industrial IDS.
 
 ###### Publications
 
-- Konrad Wolsing, Eric Wagner, Antoine Saillard, and Martin Henze. 2022. IPAL: Breaking up Silos of Protocol-dependent and Domain-specific In- dustrial Intrusion Detection Systems. In 25th International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2022), October 26–28, 2022, Limassol, Cyprus. ACM, New York, NY, USA, 17 pages. [https://doi.org/10.1145/3545948.3545968 ](https://doi.org/10.1145/3545948.3545968)
+- Konrad Wolsing, Eric Wagner, Antoine Saillard, and Martin Henze. 2022. IPAL: Breaking up Silos of Protocol-dependent and Domain-specific Industrial Intrusion Detection Systems. In 25th International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2022), October 26–28, 2022, Limassol, Cyprus. ACM, New York, NY, USA, 17 pages. [https://doi.org/10.1145/3545948.3545968 ](https://doi.org/10.1145/3545948.3545968)
 - Wolsing, Konrad, Eric Wagner, and Martin Henze. "Poster: Facilitating Protocol-independent Industrial Intrusion Detection Systems." *Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security*. 2020 [https://doi.org/10.1145/3372297.3420019](https://doi.org/10.1145/3372297.3420019)
 
 ## Getting Started
@@ -40,7 +41,11 @@ Transcribing the datasets requires the `ipal-transcriber` and `tshark` to be ins
 - To transcribe a dataset into IPAL, one needs to obtain copy of the original datasets, e.g., from the source listed in table above. This dataset needs to be placed under `[dataset-name]/raw/`.
 - Use the `transcribe.sh` or `transcribe.py` scripts to convert the dataset into IPAL. The dataset will be exported to `[datset-name]/ipal`.
 
+## Contributors
+
+- Konrad Wolsing (Fraunhofer FKIE & RWTH Aachen University)
+- Dominik Kus (RWTH Aachen University)
+
 ## License
 
 MIT License. See LICENSE for details.
-
