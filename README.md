@@ -15,6 +15,7 @@ This repository contains a collection of datasets for evaluating industrial IDS.
 | Lemay                   | Packet (Modbus)     | Most attacks are not performed with Modbus and use different protocols not relevant for the transcriber. | [Paper](https://www.usenix.org/conference/cset16/workshop-program/presentation/lemay) [Github](https://github.com/antoine-lemay/Modbus_dataset) |
 | MorrisDS1               | State     | There exist different versions of the datset (binary, ternary, or multiclass labels). We use the multi-class dataset. | [Website](https://sites.google.com/a/uah.edu/tommy-morris-uah/ics-data-sets) |
 | MorrisDS4               | Packet (Modbus)     | There are minor differences between the Raw and Arff dataset. These differences affect only the attack packets. Default: Use the Arff dataset. | [Website](https://sites.google.com/a/uah.edu/tommy-morris-uah/ics-data-sets) |
+| PowerDuck               | Packet (GOOSE)     |  | [Paper](https://doi.org/10.1145/3546096.3546102) |
 | QUT\_DNP3              | Packet (DNP3, GOOSE)         |  | [Git](https://github.com/qut-infosec/2017QUT_DNP3) [Thesis](https://eprints.qut.edu.au/121760/1/Nicholas_Rodofile_Thesis.pdf) |
 | QUT\_S7\_Myers            | Packet (S7).        |  TODO: Check Rules | [Dataset](https://cloudstor.aarnet.edu.au/plus/index.php/s/9qFfeVmfX7K5IDH) [Paper](https://research-repository.griffith.edu.au/bitstream/handle/10072/385711/FOO229943.pdf?sequence=1) |
 | QUT\_S7comm            | Packet (S7)        |  | [Dataset](https://github.com/qut-infosec/2017QUT_S7comm) [Paper](https://link.springer.com/chapter/10.1007/978-3-319-59870-3_30) |
@@ -44,6 +45,7 @@ Transcribing the datasets requires the `ipal-transcriber` and `tshark` to be ins
 ## Contributors
 
 - Konrad Wolsing (Fraunhofer FKIE & RWTH Aachen University)
+- Sven Zemanek (Fraunhofer FKIE)
 - Dominik Kus (RWTH Aachen University)
 
 ## License
