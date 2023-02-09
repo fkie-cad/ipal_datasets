@@ -2,7 +2,7 @@
 
 This repository is part of IPAL - an Industrial Protocol Abstraction Layer. IPAL aims to establish an abstract representation of industrial network traffic for subsequent unified and protocol-independent industrial intrusion detection. IPAL consists of a [transcriber](https://github.com/fkie-cad/ipal_transcriber) to automatically translate industrial traffic into the IPAL representation, an [IDS Framework](https://github.com/fkie-cad/ipal_ids_framework) implementing various industrial intrusion detection systems (IIDSs), and a collection of evaluation [datasets](https://github.com/fkie-cad/ipal_datasets). For details about IPAL, please refer to our publications listed down below.
 
-This repository contains a collection of datasets for evaluating industrial IDS. Therefore, this repository contains scripts to convert (transcribe) existing datasets into IPAL format. It does <u>not</u> contain the raw datasets nor the datasets transcribed into IPAL. We merely use placeholders which can be replaced after obtaining the original datasets at the respective publishers (see link in the table below).
+This repository contains a collection of datasets for evaluating industrial IDS. Therefore, this repository contains scripts to convert (transcribe) existing datasets into IPAL format. It does <u>not</u> contain the raw datasets nor the datasets transcribed into IPAL. **We merely use placeholders which can be replaced after obtaining the original datasets at the respective publishers** (see link in the table below).
 
 | Dataset                 | Type                | Notes                                                        | Link                                                         |
 | ----------------------- | ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -34,6 +34,12 @@ This repository contains a collection of datasets for evaluating industrial IDS.
 ##### Prerequisites
 
 Transcribing the datasets requires the `ipal-transcriber` and `tshark` to be installed (see [IPAL - Transcriber](https://github.com/fkie-cad/ipal_transcriber) and https://tshark.dev/setup/install/).
+
+On certain operating systems running all available scripts might require additional dependencies. 
+Ensure that the following commands are available:
+- [pv](https://www.ivarch.com/programs/pv.shtml)
+- `gzip` and `gunzip` from the [gzip](https://www.gnu.org/software/gzip/) project or an alternative implementation with similar features
+- `bash` from the [Bash](https://www.gnu.org/software/bash/) project
 
 ##### Install
 

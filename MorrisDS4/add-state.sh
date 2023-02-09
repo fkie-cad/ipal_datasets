@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 # Add state
 echo "Adding state to raw"
@@ -13,7 +13,7 @@ tail -n +4 | gzip > ipal/IanRawDataset.state.gz
 # Add state
 echo "Adding state to arff"
 # Ugly replace of activity 0 -> inform and 1 -> interrogate and back
-gzcat ipal/IanArffDataset.ipal.gz | \
+gunzip -c ipal/IanArffDataset.ipal.gz | \
 sed s/activity\":\ \"1\"/activity\":\ \"interrogate\"/g | sed s/activity\":\ \"0\"/activity\":\ \"inform\"/g | \
 \
 ipal-state-extractor \
