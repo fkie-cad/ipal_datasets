@@ -1,0 +1,30 @@
+default:
+  image: "alpine:latest"
+
+  before_script:
+    - apk add -q python3 python3-dev py3-pip gcc musl-dev libxml2-dev libxslt-dev
+    - pip3 install -r requirements-dev.txt
+    - python3 --version
+
+stages:
+  - Static Analysis
+
+black:
+  stage: Static Analysis
+  script:
+  - black --check --config pyproject.toml .
+
+flake8:
+  stage: Static Analysis
+  script:
+  - flake8
+
+isort:
+  stage: Static Analysis
+  script:
+  - isort --profile black --filter-files -c --skip EnergyDataset/manipulateTraces/ .
+
+cffconvert:
+  stage: Static Analysis
+  script:
+  - cffconvert --validate -i CITATION.cff
