@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 import copy
 import json
-import numpy as np
 import random
 import sys
+
+import numpy as np
 
 # Parse script arguments
 if len(sys.argv) != 2:
@@ -65,6 +66,8 @@ for start_time in start_of_flooding_attacks:
         attacks.append(
             {
                 "id": str(attackID),
+                "start": inserted_msg["timestamp"],
+                "end": inserted_msg["timestamp"],
                 "description": "flooding",
                 "attack_point": "",
                 "ipalid": inserted_msg["id"],
@@ -117,6 +120,8 @@ for timestamp in timestamp_of_injected_messages:
     attacks.append(
         {
             "id": str(attackID),
+            "start": inserted_msg["timestamp"],
+            "end": inserted_msg["timestamp"],
             "description": "injection",
             "attack_point": "",
             "ipalid": inserted_msg["id"],
@@ -176,6 +181,8 @@ while line:
             attacks.append(
                 {
                     "id": str(attackID),
+                    "start": attack_msg["timestamp"],
+                    "end": attack_msg["timestamp"],
                     "description": "prediction",
                     "attack_point": "",
                     "ipalid": attack_msg["id"],

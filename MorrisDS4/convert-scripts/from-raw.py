@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-import json
 import gzip
-from scapy.all import IP, TCP, Ether, wrpcap, Raw
+import json
+
+from scapy.all import IP, TCP, Ether, Raw, wrpcap
 
 """
     0   MB frame (received by master or slave)
@@ -65,6 +66,8 @@ with gzip.open("raw/IanRawDataset.txt.gz", "r") as f:
             attacks.append(
                 {
                     "id": line[2],
+                    "start": float(line[5]),
+                    "end": float(line[5]),
                     "attack_point": [],
                     "description": "",
                     "ipalid": packet_counter,

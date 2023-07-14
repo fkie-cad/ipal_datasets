@@ -39,7 +39,6 @@ def new_ipal():
 
 
 def label_to_malicious(label):
-
     if label in ["NORMAL", "MITM_UNALTERED"]:
         return False
     elif label in [
@@ -90,7 +89,6 @@ for protocol in ["modbus", "s7comm"]:
         line = fin.readline()  # Skip first line
 
         with gzip.open("ipal/electra_{}.ipal.gz".format(protocol), "wt") as fout:
-
             line = fin.readline()
             ipal = None
             prev_line = ""

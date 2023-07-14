@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-from datetime import datetime
 import json
 import sys
+from datetime import datetime
 
 ATTACKID = 0
 STRPTIME = "%Y-%m-%d %H:%M:%S.%f"

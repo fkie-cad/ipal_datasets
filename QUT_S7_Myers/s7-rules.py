@@ -1,5 +1,6 @@
-import settings
 import struct
+
+import settings
 
 
 def to_float(var):

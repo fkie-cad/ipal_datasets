@@ -39,13 +39,11 @@ def add_new_attack(start, end):
 
 # Transcribe files
 for filename in FILES:
-
     # Process a single test file
     print("\nProcessing", filename)
 
     with gzip.open("./raw/" + filename, "r") as f_in:
         with gzip.open("./ipal/" + filename.replace(".csv.", ".state."), "wt") as f_out:
-
             # Read column names
             columns = f_in.readline().decode().strip().split(",")
             attack_start = None

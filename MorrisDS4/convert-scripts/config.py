@@ -1,5 +1,5 @@
-import struct
 import math
+import struct
 
 
 def to_float(vars):

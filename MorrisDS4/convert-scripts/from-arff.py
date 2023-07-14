@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-import json
 import gzip
-from scapy.all import IP, TCP, Ether, wrpcap, Raw
+import json
+
+from scapy.all import IP, TCP, Ether, Raw, wrpcap
 
 """
     0   MB frame (received by master or slave)
@@ -96,7 +97,9 @@ with gzip.open("raw/IanArffDataset.arff.gz", "r") as f:
         if ipal["malicious"] is not False:
             attacks.append(
                 {
-                    "id": ipal["malicious"],
+                    "id": line[19],
+                    "start": ipal["timestamp"],
+                    "end": ipal["timestamp"],
                     "attack_point": [],
                     "description": "",
                     "ipalid": ipal["id"],

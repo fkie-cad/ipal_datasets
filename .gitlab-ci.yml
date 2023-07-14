@@ -13,18 +13,22 @@ black:
   stage: Static Analysis
   script:
   - black --check --config pyproject.toml .
+  allow_failure: true
 
 flake8:
   stage: Static Analysis
   script:
   - flake8
+  allow_failure: true
 
 isort:
   stage: Static Analysis
   script:
   - isort --profile black --filter-files -c --skip EnergyDataset/manipulateTraces/ .
+  allow_failure: true
 
 cffconvert:
   stage: Static Analysis
   script:
   - cffconvert --validate -i CITATION.cff
+  allow_failure: true

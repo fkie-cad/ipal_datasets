@@ -28,7 +28,6 @@ def transcribe(fin):
 
     with gzip.open("./raw/" + fin, "r") as f_in:
         with gzip.open("./ipal/" + fin.replace(".csv.gz", ".state.gz"), "wb") as f_out:
-
             # Parse columns
             columns = f_in.readline().decode().strip().split(",")
             if fin == "WADI_14days_new.csv.gz":
@@ -42,7 +41,6 @@ def transcribe(fin):
 
             # Parse dataset line by line
             for line in f_in.readlines():
-
                 # Parse line and replace strange srings
                 line = line.decode().strip().replace("1.#QNAN", "nan").split(",")
                 line = ["nan" if item == "" else item for item in line]
@@ -86,7 +84,6 @@ def transcribe(fin):
 
 
 if __name__ == "__main__":
-
     # Load attack file
     with open("attacks.json") as f:
         attacks = json.load(f)

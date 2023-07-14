@@ -30,7 +30,6 @@ def transcribe(fin):
     # Transcribe to ipal format
     prev = None
     for row in data:
-
         # Convert timestamp
         timestamp = int(
             datetime.strptime(row[0].strip(), "%d/%m/%Y %I:%M:%S %p").timestamp()
@@ -79,7 +78,6 @@ def transcribe(fin):
 
 
 if __name__ == "__main__":
-
     # Load attack file
     with open("attacks.json") as f:
         attacks = json.load(f)
