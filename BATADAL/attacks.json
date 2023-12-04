@@ -1,0 +1,128 @@
+[
+    {
+        "id": "1",
+        "attack_point": [
+            "state;L_T7"
+        ],
+        "description": "",
+        "start": 1473800400,
+        "end": 1473976800
+    },
+    {
+        "id": "2?",
+        "attack_point": [
+            "state;L_T7"
+        ],
+        "description": "Attack is documented but not labelled in the dataset",
+        "start": 1474880400,
+        "end": 1474963200
+    },
+    {
+        "id": "3",
+        "attack_point": [
+            "state;L_T1"
+        ],
+        "description": "",
+        "start": 1475996400,
+        "end": 1476208800
+    },
+    {
+        "id": "4",
+        "attack_point": [
+            "state;L_T1"
+        ],
+        "description": "",
+        "start": 1477760400,
+        "end": 1478098800
+    },
+    {
+        "id": "5",
+        "attack_point": [
+            "state;PU7"
+        ],
+        "description": "",
+        "start": 1480176000,
+        "end": 1480388400
+    },
+    {
+        "id": "6",
+        "attack_point": [
+            "state;PU7"
+        ],
+        "description": "",
+        "start": 1481004000,
+        "end": 1481338800
+    },
+    {
+        "id": "7?",
+        "attack_point": [
+            "state;PU7"
+        ],
+        "description": "Attack is documented but not labelled in the dataset",
+        "start": 1481724000,
+        "end": 1482116400
+    },
+    {
+        "id": "8",
+        "attack_point": [
+            "state;L_T3"
+        ],
+        "description": "",
+        "start": 1484553600,
+        "end": 1484802000
+    },
+    {
+        "id": "9",
+        "attack_point": [
+            "state;L_T2"
+        ],
+        "description": "",
+        "start": 1485759600,
+        "end": 1485990000
+    },
+    {
+        "id": "10",
+        "attack_point": [
+            "state;PU3"
+        ],
+        "description": "",
+        "start": 1486605600,
+        "end": 1486713600
+    },
+    {
+        "id": "11",
+        "attack_point": [
+            "state;PU3"
+        ],
+        "description": "",
+        "start": 1486857600,
+        "end": 1486965600
+    },
+    {
+        "id": "12",
+        "attack_point": [
+            "state;PU3"
+        ],
+        "description": "",
+        "start": 1487908800,
+        "end": 1488265200
+    },
+    {
+        "id": "13",
+        "attack_point": [
+            "state;L_T7"
+        ],
+        "description": "",
+        "start": 1489150800,
+        "end": 1489435200
+    },
+    {
+        "id": "14",
+        "attack_point": [
+            "state;L_T4"
+        ],
+        "description": "",
+        "start": 1490468400,
+        "end": 1490569200
+    }
+]

@@ -14,7 +14,7 @@ def to_timestamp(val):
 
 attacks = []
 
-for fname in ["attack_1", "attack_2", "attack_3"]:
+for fname in ["attack_1", "attack_3", "attack_2", "attack_4"]:
     print("Extracting attacks {}".format(fname))
     attack = None
     prev_time = None

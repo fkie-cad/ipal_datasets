@@ -29,3 +29,8 @@ echo "Transcribing attack_3.pcap"
 $TRANSCRIBER \
     --pcap raw/Network\ datatset/pcap/attack_3.pcap.gz \
     | pv -l | gzip > ipal/attack_3.ipal.gz
+
+echo "Transcribing attack_4.pcap"
+$TRANSCRIBER \
+    --pcap raw/Network\ datatset/pcap/attack_4.pcap.gz \
+    | pv -l | gzip > ipal/attack_4.ipal.gz

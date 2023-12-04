@@ -5,8 +5,8 @@ from datetime import datetime
 
 
 def convert(val):
-    if val in ["false", "true"]:
-        return bool(val)
+    if val.lower() in ["false", "true"]:
+        return val.lower() == "true"
     else:
         return int(val)
 
@@ -15,7 +15,7 @@ def to_timestamp(val):
     return int(datetime.strptime(val, "%d/%m/%Y %H:%M:%S").timestamp())
 
 
-for fname in ["phy_att_1", "phy_att_2", "phy_att_3", "phy_norm"]:
+for fname in ["phy_att_1", "phy_att_2", "phy_att_3", "phy_att_4", "phy_norm"]:
     print("Transcribing {}".format(fname))
 
     with gzip.open("raw/Physical dataset/{}.csv.gz".format(fname), "r") as fin:
