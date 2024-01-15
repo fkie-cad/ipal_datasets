@@ -14,7 +14,7 @@ authors:
   given-names: "Martin"
   orcid: "https://orcid.org/0000-0001-8717-2523"
 title: "IPAL - Datasets"
-version: 1.3.3
+version: 1.3.4
 doi: 10.1145/3545948.3545968
 date-released: 2022-04-20
 url: "https://github.com/fkie-cad/ipal_datasets"

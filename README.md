@@ -30,11 +30,11 @@ This repository contains a collection of datasets for evaluating industrial IDS.
 - Konrad Wolsing, Eric Wagner, Antoine Saillard, and Martin Henze. 2022. IPAL: Breaking up Silos of Protocol-dependent and Domain-specific Industrial Intrusion Detection Systems. In 25th International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2022), October 26–28, 2022, Limassol, Cyprus. ACM, New York, NY, USA, 17 pages. [https://doi.org/10.1145/3545948.3545968 ](https://doi.org/10.1145/3545948.3545968)
 - Wolsing, Konrad, Eric Wagner, and Martin Henze. "Poster: Facilitating Protocol-independent Industrial Intrusion Detection Systems." *Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security*. 2020 [https://doi.org/10.1145/3372297.3420019](https://doi.org/10.1145/3372297.3420019)
 
-## Getting Started
+## Getting started
 
 If you are new to IPAL and want to learn about the general idea or try out our tutorials, please refer to IPAL's main repository: [https://github.com/fkie-cad/ipal](https://github.com/fkie-cad/ipal).
 
-##### Prerequisites
+###### Prerequisites
 
 Transcribing the datasets requires the `ipal-transcriber` and `tshark` to be installed (see [IPAL - Transcriber](https://github.com/fkie-cad/ipal_transcriber) and https://tshark.dev/setup/install/).
 
@@ -50,6 +50,32 @@ Ensure that the following commands are available:
 
 - To transcribe a dataset into IPAL, one needs to obtain copy of the original datasets, e.g., from the source listed in table above. This dataset needs to be placed under `[dataset-name]/raw/`.
 - Use the `transcribe.sh` or `transcribe.py` scripts to convert the dataset into IPAL. The dataset will be exported to `[datset-name]/ipal`.
+
+## Development
+
+##### Tooling
+
+The set of tools used for development, code formatting, style checking, and testing can be installed with the following command:
+
+```bash
+python3 -m pip install -r requirements-dev.txt
+```
+
+All tools can be executed manually with the following commands and report errors if encountered:
+
+```bash
+black .
+flake8
+python3 -m pytest
+```
+
+A `black` and `flake8` check of modified files before any commit can also be forced using Git's pre-commit hook functionality:
+
+```bash
+pre-commit install
+```
+
+More information on the black and flake8 setup can be found at https://ljvmiranda921.github.io/notebook/2018/06/21/precommits-using-black-and-flake8/
 
 ## Contributors
 

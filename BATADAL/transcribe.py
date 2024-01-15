@@ -12,15 +12,29 @@ def get_attack(timestamp):
     return None
 
 
+def get_timestamp(time, short_year=False):
+    if short_year:
+        date_format = "%d/%m/%y %H"
+    else:
+        date_format = "%d/%m/%Y %H"
+
+    date = datetime.strptime(time, date_format)
+    date = date.timestamp()
+
+    if date > 1490490000:  # account for DST hour
+        date += 3600
+    if date == 1490490000 and time == "26/03/17 03":
+        date += 3600
+    return date
+
+
 def transcribe_attacks():
     with open("documentation/attacks.json", "r") as f:
         attacks = json.load(f)
 
     for attack in attacks:
-        attack["start"] = int(
-            datetime.strptime(attack["start"], "%d/%m/%Y %H").timestamp()
-        )
-        attack["end"] = int(datetime.strptime(attack["end"], "%d/%m/%Y %H").timestamp())
+        attack["start"] = int(get_timestamp(attack["start"]))
+        attack["end"] = int(get_timestamp(attack["end"]))
         del attack["duration"]
 
     with open("attacks.json", "w") as f:
@@ -45,7 +59,7 @@ def transcribe(fin):
     # Transcribe to ipal format
     for row in data:
         # Convert timestamp
-        timestamp = int(datetime.strptime(row[0].strip(), "%d/%m/%y %H").timestamp())
+        timestamp = int(get_timestamp(row[0].strip(), short_year=True))
 
         # Convert state
         if attributes[-1] == "ATT_FLAG":

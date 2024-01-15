@@ -1,0 +1,119 @@
+[
+  {
+      "id": "01-replay-opening-switch-isolated",
+      "attack_point": [],
+      "description": "First replayed packet",
+      "ipalid": 200,
+      "start": 1647600209.962,
+      "end": 1647600209.962
+    },
+  {
+      "id": "02-replay-opening-switch-w-context",
+      "attack_point": [],
+      "description": "Replayed closed state value repetition",
+      "ipalid": 155,
+      "start": 1647600893.625,
+      "end": 1647600914.853
+    },
+    {
+      "id": "03-replay-old-measurements",
+      "attack_point": [],
+      "description": "Replayed old measurement",
+      "ipalid": 165,
+      "start": 1647601269.908,
+      "end": 1647601347.292
+    },
+    {
+      "id": "04-insert-fake-open-w-intermediate",
+      "attack_point": [],
+      "description": "Intermediate state",
+      "ipalid": 174,
+      "start": 1647601652.094,
+      "end": 1647601931.082
+    },
+    {
+      "id": "05-insert-fake-open-only-end",
+      "attack_point": [],
+      "description": "Open state",
+      "ipalid": 151,
+      "start": 1647952560.613,
+      "end": 1647952841.037
+    },
+    {
+      "id": "08-insert-distort-meas-up-sharp",
+      "attack_point": [],
+      "description": "Fake measurement value 420.0",
+      "ipalid": 2177,
+      "start": 1647970136.354,
+      "end": 1647970435.915
+    },
+    {
+      "id": "09-insert-distort-meas-down-sharp",
+      "attack_point": [],
+      "description": "Fake measurement value 380.0",
+      "ipalid": 2008,
+      "start": 1648214430.901,
+      "end": 1648214808.083
+    },    
+    {
+      "id": "10-sup-1-1-tbv0",
+      "attack_point": [],
+      "description": "Increment stNum by 1",
+      "ipalid": 2222,
+      "start": 1648215189.492,
+      "end": 1648215493.165
+    },    
+    {
+      "id": "11-sup-1-1-tbv1",
+      "attack_point": [],
+      "description": "Increment stNum by 1",
+      "ipalid": 1572,
+      "start": 1648216087.579,
+      "end": 1648216441.639
+    },    
+    
+    
+    {
+      "id": "12-sup-1-1-tbv2",
+      "attack_point": [],
+      "description": "Increment stNum by 1",
+      "ipalid": 2183,
+      "start": 1648216849.579,
+      "end": 1648217257.567
+    },
+    
+    {
+      "id": "13-sup-2",
+      "attack_point": [],
+      "description": "Increment stNum by 2",
+      "ipalid": 2582,
+      "start": 1648217778.931,
+      "end": 1648218098.476
+    },
+    
+    {
+      "id": "14-sup-1",
+      "attack_point": [],
+      "description": "Repetition",
+      "ipalid": 2009,
+      "start": 1648218599.113,
+      "end": 1648218941.569
+    },
+    {
+      "id": "06-insert-distort-meas-up-grad",
+      "attack_point": [],
+      "description": "Fake measurement value 399.45001220703125",
+      "ipalid": 2186,
+      "start": 1659708996.767,
+      "end": 1659709207.877
+    },
+    {
+      "id": "07-insert-distort-meas-down-grad",
+      "attack_point": [],
+      "description": "Fake measurement value 399.45001220703125",
+      "ipalid": 4382,
+      "start": 1659710072.102,
+      "end": 165971037.6711
+    }
+  ]
+
