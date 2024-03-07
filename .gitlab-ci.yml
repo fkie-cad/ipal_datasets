@@ -8,6 +8,7 @@ default:
 
 stages:
   - Static Analysis
+  - Test
 
 black:
   stage: Static Analysis
@@ -32,3 +33,9 @@ cffconvert:
   script:
   - cffconvert --validate -i CITATION.cff
   allow_failure: true
+
+execute:
+  stage: Test
+  script:
+  - ./misc/test.sh
+

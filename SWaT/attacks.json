@@ -127,7 +127,7 @@
     },
     {
         "id": "23",
-        "attack_point": ["state;P602", "state;DIT301", "state;MV302"],
+        "attack_point": ["state;P602", "state;DPIT301", "state;MV302"],
         "description": "Value of DPIT301 set to >0.4 bar; Keep MV302 open; Keep P602 closed ",
         "start": 1451436154,
         "end": 1451436850

@@ -76,17 +76,8 @@ def transcribe(fin):
         # Get attack according to documentation
         attack = get_attack(timestamp)
 
-        # Use label if provided
-        if attributes[-1] == "ATT_FLAG":
-            if row[-1] in ["0", " -999"]:
-                malicious = False
-            else:
-                assert attack is not None
-                malicious = attack["id"]
-
-        # Test data has no labels, use documentation
-        else:
-            malicious = False if attack is None else attack["id"]
+        # Use labels from documentation
+        malicious = False if attack is None else attack["id"]
 
         # Craft IPAL message
         ipal = {

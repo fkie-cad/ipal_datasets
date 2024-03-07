@@ -4,16 +4,16 @@
         "attack_point": [
             "state;L_T7"
         ],
-        "description": "",
+        "description": "Attacker changes L_T7 thresholds (which controls PU10/PU11) by altering SCADA transmission to PLC9. Low levels in T7.",
         "start": 1473800400,
         "end": 1473976800
     },
     {
-        "id": "2?",
+        "id": "2",
         "attack_point": [
             "state;L_T7"
         ],
-        "description": "Attack is documented but not labelled in the dataset",
+        "description": "Like Attack #1",
         "start": 1474880400,
         "end": 1474963200
     },
@@ -22,7 +22,7 @@
         "attack_point": [
             "state;L_T1"
         ],
-        "description": "",
+        "description": "Attack alteres L_T1 readings sent by PLC2 to PLC1, which reads a constant low level and keeps pumps PU1/PU2 ON. Overflow in T1.",
         "start": 1475996400,
         "end": 1476208800
     },
@@ -31,34 +31,34 @@
         "attack_point": [
             "state;L_T1"
         ],
-        "description": "",
+        "description": "Like Attack #3",
         "start": 1477760400,
         "end": 1478098800
     },
     {
         "id": "5",
         "attack_point": [
-            "state;PU7"
+            "state;F_PU7"
         ],
-        "description": "",
+        "description": "Working speed of PU7 is reduced to 0.9 of nominal speed causes lower water levels in T4.",
         "start": 1480176000,
         "end": 1480388400
     },
     {
         "id": "6",
         "attack_point": [
-            "state;PU7"
+            "state;F_PU7"
         ],
-        "description": "",
+        "description": "Like Attack #5, but speed reduced to 0.7",
         "start": 1481004000,
         "end": 1481338800
     },
     {
-        "id": "7?",
+        "id": "7",
         "attack_point": [
-            "state;PU7"
+            "state;F_PU7"
         ],
-        "description": "Attack is documented but not labelled in the dataset",
+        "description": "Like attack #6",
         "start": 1481724000,
         "end": 1482116400
     },
@@ -67,7 +67,7 @@
         "attack_point": [
             "state;L_T3"
         ],
-        "description": "",
+        "description": "Attacker changes L_T3 thresholds (which control PU4/PU5) by gaining control of PLC3. Low levels in T3.",
         "start": 1484553600,
         "end": 1484802000
     },
@@ -76,34 +76,34 @@
         "attack_point": [
             "state;L_T2"
         ],
-        "description": "",
+        "description": "Attack alteres L_T2 readings arriving to PLC3, which reads a low level and keeps valve V2 OPEN, leading T2 to overflow.",
         "start": 1485759600,
         "end": 1485990000
     },
     {
         "id": "10",
         "attack_point": [
-            "state;PU3"
+            "state;F_PU3"
         ],
-        "description": "",
+        "description": "Malicious activation of pump PU3.",
         "start": 1486605600,
         "end": 1486713600
     },
     {
         "id": "11",
         "attack_point": [
-            "state;PU3"
+            "state;F_PU3"
         ],
-        "description": "",
+        "description": "Similar to Attack #10",
         "start": 1486857600,
         "end": 1486965600
     },
     {
         "id": "12",
         "attack_point": [
-            "state;PU3"
+            "state;F_PU3"
         ],
-        "description": "",
+        "description": "Similar to Attack #9",
         "start": 1487908800,
         "end": 1488265200
     },
@@ -112,7 +112,7 @@
         "attack_point": [
             "state;L_T7"
         ],
-        "description": "",
+        "description": "Attacker changes L_T7 thresholds (which control PU10/PU11) by gaining control of PLC5, causing the pumps to switch ON/OFF continously.",
         "start": 1489150800,
         "end": 1489435200
     },
@@ -121,7 +121,7 @@
         "attack_point": [
             "state;L_T4"
         ],
-        "description": "",
+        "description": "Alternation of T4 signal arriving to PLC6. Overflow in T6.",
         "start": 1490468400,
         "end": 1490572800
     }

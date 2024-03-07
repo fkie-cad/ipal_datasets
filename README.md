@@ -1,5 +1,7 @@
 # IPAL - Datasets
 
+<img src="./misc/Logo.png" alt="Logo" width="100" height="auto" align="right">
+
 This repository is part of [IPAL](https://github.com/fkie-cad/ipal)  - an Industrial Protocol Abstraction Layer. IPAL aims to establish an abstract representation of industrial network traffic for subsequent unified and protocol-independent industrial intrusion detection. IPAL consists of a [transcriber](https://github.com/fkie-cad/ipal_transcriber) to automatically translate industrial traffic into the IPAL representation, an [IDS Framework](https://github.com/fkie-cad/ipal_ids_framework) implementing various industrial intrusion detection systems (IIDSs), and a collection of evaluation [datasets](https://github.com/fkie-cad/ipal_datasets). For details about IPAL, please refer to our publications listed down below.
 
 This repository contains a collection of datasets for evaluating industrial IDS. Therefore, this repository contains scripts to convert (transcribe) existing datasets into IPAL format. It does <u>not</u> contain the raw datasets nor the datasets transcribed into IPAL. **We merely use placeholders which can be replaced after obtaining the original datasets at the respective publishers** (see link in the table below).
