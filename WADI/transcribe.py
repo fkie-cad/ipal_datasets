@@ -19,20 +19,24 @@ def get_attack(timestamp):
 def transcribe(fin):
     print("Transcribing {}".format(fin))
 
-    if fin == "WADI_14days_new.csv.gz":
+    if fin == "WADI_14days_new.csv":
         data_collection_start = 1506355200
-    elif fin == "WADI_attackdataLABLE.csv.gz":
+    elif fin == "WADI_attackdataLABLE.csv":
         data_collection_start = 1507565794
     else:
         assert False
 
-    with gzip.open("./raw/" + fin, "r") as f_in:
-        with gzip.open("./ipal/" + fin.replace(".csv.gz", ".state.gz"), "wb") as f_out:
+    with open("./raw/" + fin, "r") as f_in:
+        with gzip.open("./ipal/" + fin.replace(".csv", ".state.gz"), "wb") as f_out:
+            # Skip first liine of WADI_attackdataLABLE
+            if fin == "WADI_attackdataLABLE.csv":
+                f_in.readline()
+
             # Parse columns
-            columns = f_in.readline().decode().strip().split(",")
-            if fin == "WADI_14days_new.csv.gz":
+            columns = f_in.readline().strip().split(",")
+            if fin == "WADI_14days_new.csv":
                 END = len(columns)
-            elif fin == "WADI_attackdataLABLE.csv.gz":
+            elif fin == "WADI_attackdataLABLE.csv":
                 END = -1
             else:
                 assert False
@@ -41,8 +45,12 @@ def transcribe(fin):
 
             # Parse dataset line by line
             for line in f_in.readlines():
+                # Skip empty lines
+                if line.startswith(",,,,,,,,"):
+                    continue
+
                 # Parse line and replace strange srings
-                line = line.decode().strip().replace("1.#QNAN", "nan").split(",")
+                line = line.strip().replace("1.#QNAN", "nan").split(",")
                 line = ["nan" if item == "" else item for item in line]
 
                 # Calculate timestamp
@@ -59,7 +67,7 @@ def transcribe(fin):
                 prev_state = state
 
                 # Calculate attack scenario and assert
-                if fin == "WADI_attackdataLABLE.csv.gz":
+                if fin == "WADI_attackdataLABLE.csv":
                     if line[-1] == "1":  # No attack
                         assert get_attack(timestamp) is None
                         malicious = False
@@ -69,7 +77,7 @@ def transcribe(fin):
                     else:
                         assert False
 
-                elif fin == "WADI_14days_new.csv.gz":
+                elif fin == "WADI_14days_new.csv":
                     malicious = False
                 else:
                     assert False
@@ -89,5 +97,5 @@ if __name__ == "__main__":
         attacks = json.load(f)
 
     # Transcribe datasets
-    transcribe("WADI_14days_new.csv.gz")
-    transcribe("WADI_attackdataLABLE.csv.gz")
+    transcribe("WADI_14days_new.csv")
+    transcribe("WADI_attackdataLABLE.csv")

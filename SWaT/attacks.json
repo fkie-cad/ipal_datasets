@@ -63,13 +63,6 @@
         "end": 1451309300
     },
     {
-        "id": "-1",
-        "attack_point": [],
-        "description": "Unkown attack, Missing from list of attacks",
-        "start": 1451367000,
-        "end": 1451367720
-    },
-    {
         "id": "13",
         "attack_point": ["state;MV304"],
         "description": "Close MV304",

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "1",
+    "attack_point": ["state;L_T7"],
+    "description": "Attacker changes L_T7 thresholds (which controls PU10/PU11) by altering SCADA transmission to PLC9. Low levels in T7.",
+    "start": "13/09/2016 23",
+    "end": "16/09/2016 00",
+    "duration": 50
+  },
+  {
+    "id": "2",
+    "attack_point": ["state;L_T7"],
+    "description": "Like Attack #1",
+    "start": "26/09/2016 11",
+    "end": "27/09/2016 10",
+    "duration": 24
+  },
+  {
+    "id": "3",
+    "attack_point": ["state;L_T1"],
+    "description": "Attack alteres L_T1 readings sent by PLC2 to PLC1, which reads a constant low level and keeps pumps PU1/PU2 ON. Overflow in T1.",
+    "start": "09/10/2016 09",
+    "end": "11/10/2016 20",
+    "duration": 60
+  },
+  {
+    "id": "4",
+    "attack_point": ["state;L_T1"],
+    "description": "Like Attack #3",
+    "start": "29/10/2016 19",
+    "end": "02/11/2016 16",
+    "duration": 94
+  },
+  {
+    "id": "5",
+    "attack_point": ["state;F_PU7"],
+    "description": "Working speed of PU7 is reduced to 0.9 of nominal speed causes lower water levels in T4.",
+    "start": "26/11/2016 17",
+    "end": "29/11/2016 04",
+    "duration": 60
+  },
+  {
+    "id": "6",
+    "attack_point": ["state;F_PU7"],
+    "description": "Like Attack #5, but speed reduced to 0.7",
+    "start": "06/12/2016 07",
+    "end": "10/12/2016 04",
+    "duration": 94
+  },
+  {
+    "id": "7",
+    "attack_point": ["state;F_PU7"],
+    "description": "Like attack #6",
+    "start": "14/12/2016 15",
+    "end": "19/12/2016 04",
+    "duration": 110
+  },
+  {
+    "id": "8",
+    "attack_point": ["state;L_T3"],
+    "description": "Attacker changes L_T3 thresholds (which control PU4/PU5) by gaining control of PLC3. Low levels in T3.",
+    "start": "16/01/2017 09",
+    "end": "19/01/2017 06",
+    "duration": 70
+  },
+  {
+    "id": "9",
+    "attack_point": ["state;L_T2"],
+    "description": "Attack alteres L_T2 readings arriving to PLC3, which reads a low level and keeps valve V2 OPEN, leading T2 to overflow.",
+    "start": "30/01/2017 08",
+    "end": "02/02/2017 00",
+    "duration": 65
+  },
+  {
+    "id": "10",
+    "attack_point": ["state;F_PU3"],
+    "description": "Malicious activation of pump PU3.",
+    "start": "09/02/2017 03",
+    "end": "10/02/2017 09",
+    "duration": 31
+  },
+  {
+    "id": "11",
+    "attack_point": ["state;F_PU3"],
+    "description": "Similar to Attack #10",
+    "start": "12/02/2017 01",
+    "end": "13/02/2017 07",
+    "duration": 31
+  },
+  {
+    "id": "12",
+    "attack_point": ["state;F_PU3"],
+    "description": "Similar to Attack #9",
+    "start": "24/02/2017 05",
+    "end": "28/02/2017 08",
+    "duration": 100
+  },
+  {
+    "id": "13",
+    "attack_point": ["state;L_T7"],
+    "description": "Attacker changes L_T7 thresholds (which control PU10/PU11) by gaining control of PLC5, causing the pumps to switch ON/OFF continously.",
+    "start": "10/03/2017 14",
+    "end": "13/03/2017 21",
+    "duration": 80
+  },
+  {
+    "id": "14",
+    "attack_point": ["state;L_T4"],
+    "description": "Alternation of T4 signal arriving to PLC6. Overflow in T6.",
+    "start": "25/03/2017 20",
+    "end": "27/03/2017 01",
+    "duration": 30
+  }
+]

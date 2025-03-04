@@ -45,7 +45,7 @@ def transcribe(fin):
     print("Transcribing {}".format(fin))
 
     # Read input file
-    with gzip.open("./raw/" + fin, "rt") as f:
+    with open("./raw/" + fin, "rt") as f:
         csv_data = f.readlines()
         data = csv.reader(csv_data, delimiter=",")
 
@@ -54,7 +54,7 @@ def transcribe(fin):
     attributes = [a.strip() for a in attributes]
 
     # Open output file
-    fout = gzip.open("./ipal/" + fin.replace(".csv", ".state"), "wt")
+    fout = gzip.open("./ipal/" + fin.replace(".csv", ".state.gz"), "wt")
 
     # Transcribe to ipal format
     for row in data:
@@ -101,6 +101,6 @@ if __name__ == "__main__":
         attacks = json.load(f)
 
     # Transcribe datasets
-    transcribe("BATADAL_dataset03.csv.gz")
-    transcribe("BATADAL_dataset04.csv.gz")
-    transcribe("BATADAL_test_dataset.csv.gz")
+    transcribe("BATADAL_dataset03.csv")
+    transcribe("BATADAL_dataset04.csv")
+    transcribe("BATADAL_test_dataset.csv")

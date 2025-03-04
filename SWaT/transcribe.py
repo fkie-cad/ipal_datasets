@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-import csv
 import gzip
 import json
 from datetime import datetime
+
+from pandas import read_excel
 
 
 def get_attack(timestamp):
@@ -16,32 +17,28 @@ def transcribe(fin):
     print("Transcribing {}".format(fin))
 
     # Read input file
-    with gzip.open("./raw/" + fin, "rt") as f:
-        csv_data = f.readlines()
-        data = csv.reader(csv_data, delimiter=";")
+    xlsx = read_excel("./raw/" + fin)
 
     # Extract attributes row
-    attributes = next(data)
-    attributes = [a.strip() for a in attributes]
+    attributes = [a.strip() for a in xlsx.iloc[0]]
 
     # Open output file
-    fout = gzip.open("./ipal/" + fin.replace(".csv", ".state"), "wt")
+    fout = gzip.open("./ipal/" + fin.replace(".xlsx", ".state.gz"), "wt")
 
     # Transcribe to ipal format
     prev = None
-    for row in data:
+    for row in xlsx.itertuples():
+        if row[0] == 0:  # Skip first row
+            continue
+        row = row[1:]  # Remove row counter
+
         # Convert timestamp
         timestamp = int(
             datetime.strptime(row[0].strip(), "%d/%m/%Y %I:%M:%S %p").timestamp()
         )
 
         # Convert state
-        state = {attributes[i]: row[i] for i in range(1, len(row) - 1)}
-        for key, value in state.items():
-            if "," in value:
-                state[key] = float(value.replace(",", "."))
-            else:
-                state[key] = int(value)
+        state = {attributes[i]: round(row[i], 9) for i in range(1, len(row) - 1)}
 
         # Malicious (assert against attacks.json file)
         if row[len(row) - 1] == "Normal":
@@ -49,8 +46,11 @@ def transcribe(fin):
             malicious = False
 
         elif row[len(row) - 1] in ["Attack", "A ttack"]:
-            assert get_attack(timestamp) is not None
-            malicious = get_attack(timestamp)["id"]
+            if 1451367000 <= timestamp and timestamp <= 1451367720:  # Unknown attack
+                malicious = "-1"
+            else:
+                assert get_attack(timestamp) is not None
+                malicious = get_attack(timestamp)["id"]
         else:
             assert False
 
@@ -83,6 +83,6 @@ if __name__ == "__main__":
         attacks = json.load(f)
 
     # Transcribe datasets
-    transcribe("SWaT_Dataset_Normal_v0.csv.gz")
-    transcribe("SWaT_Dataset_Normal_v1.csv.gz")
-    transcribe("SWaT_Dataset_Attack_v0.csv.gz")
+    transcribe("SWaT_Dataset_Normal_v0.xlsx")
+    transcribe("SWaT_Dataset_Normal_v1.xlsx")
+    transcribe("SWaT_Dataset_Attack_v0.xlsx")
