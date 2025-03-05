@@ -1,350 +1,495 @@
 [
     {
         "id": 1,
-        "attack_point": ["state;P1_B2016"],
+        "attack_point": [
+            "state;P1_B2016"
+        ],
         "description": "",
         "start": 1594128911,
         "end": 1594129102
     },
     {
         "id": 2,
-        "attack_point": ["state;P1_B3005"],
+        "attack_point": [
+            "state;P1_B3005"
+        ],
         "description": "",
         "start": 1594135691,
         "end": 1594135788
     },
     {
         "id": 3,
-        "attack_point": ["state;P1_LCV01D"],
+        "attack_point": [
+            "state;P1_LCV01D"
+        ],
         "description": "",
         "start": 1594141151,
         "end": 1594141340
     },
     {
         "id": 4,
-        "attack_point": ["state;P2_SCO"],
+        "attack_point": [
+            "state;P2_SCO"
+        ],
         "description": "",
         "start": 1594146066,
         "end": 1594146125
     },
     {
         "id": 5,
-        "attack_point": ["state;P2_AutoSD"],
+        "attack_point": [
+            "state;P2_AutoSD"
+        ],
         "description": "",
         "start": 1594148601,
         "end": 1594148689
     },
     {
         "id": 6,
-        "attack_point": ["state;P2_VTR02"],
+        "attack_point": [
+            "state;P2_VTR02"
+        ],
         "description": "",
         "start": 1594302420,
         "end": 1594302502
     },
     {
         "id": 7,
-        "attack_point": ["state;P1_B2016", "state;P1_PIT01"],
+        "attack_point": [
+            "state;P1_B2016",
+            "state;P1_PIT01"
+        ],
         "description": "",
         "start": 1594309080,
         "end": 1594309501
     },
     {
         "id": 8,
-        "attack_point": ["state;P1_LCV01D"],
+        "attack_point": [
+            "state;P1_LCV01D"
+        ],
         "description": "",
         "start": 1594313946,
         "end": 1594313962
     },
     {
         "id": 9,
-        "attack_point": ["state;P1_B3005", "state;P1_FT03"],
+        "attack_point": [
+            "state;P1_B3005",
+            "state;P1_FT03"
+        ],
         "description": "",
         "start": 1594318200,
         "end": 1594318458
     },
     {
         "id": 10,
-        "attack_point": ["state;P1_B2016"],
+        "attack_point": [
+            "state;P1_B2016"
+        ],
         "description": "",
         "start": 1594322100,
         "end": 1594322222
     },
     {
         "id": 11,
-        "attack_point": ["state;P1_FCV03D", "state;P1_FT03"],
+        "attack_point": [
+            "state;P1_FCV03D",
+            "state;P1_FT03"
+        ],
         "description": "",
         "start": 1594328520,
         "end": 1594328775
     },
     {
         "id": 12,
-        "attack_point": ["state;P2_VTR01"],
+        "attack_point": [
+            "state;P2_VTR01"
+        ],
         "description": "",
         "start": 1594336080,
         "end": 1594336147
     },
     {
         "id": 13,
-        "attack_point": ["state;P1_B3004", "state;P1_LIT01"],
+        "attack_point": [
+            "state;P1_B3004",
+            "state;P1_LIT01"
+        ],
         "description": "",
         "start": 1594337581,
         "end": 1594337841
     },
     {
         "id": 14,
-        "attack_point": ["state;P1_B3004"],
+        "attack_point": [
+            "state;P1_B3004"
+        ],
         "description": "",
         "start": 1594342991,
         "end": 1594343189
     },
     {
         "id": 15,
-        "attack_point": ["state;P1_PCV01D", "state;P1_PIT01"],
+        "attack_point": [
+            "state;P1_PCV01D",
+            "state;P1_PIT01"
+        ],
         "description": "",
         "start": 1594351740,
         "end": 1594352160
     },
     {
         "id": 16,
-        "attack_point": ["state;P2_AutoSD"],
+        "attack_point": [
+            "state;P2_AutoSD"
+        ],
         "description": "",
         "start": 1594360266,
         "end": 1594360310
     },
     {
         "id": 17,
-        "attack_point": ["state;P2_AutoSD", "state;P2_SIT01"],
+        "attack_point": [
+            "state;P2_AutoSD",
+            "state;P2_SIT01"
+        ],
         "description": "",
         "start": 1594365181,
         "end": 1594365332
     },
     {
         "id": 18,
-        "attack_point": ["state;P1_LCV01D", "state;P1_LIT01"],
+        "attack_point": [
+            "state;P1_LCV01D",
+            "state;P1_LIT01"
+        ],
         "description": "",
         "start": 1594370943,
         "end": 1594371196
     },
     {
         "id": 19,
-        "attack_point": ["state;P1_PCV01D"],
+        "attack_point": [
+            "state;P1_PCV01D"
+        ],
         "description": "",
         "start": 1594378271,
         "end": 1594378422
     },
     {
         "id": 20,
-        "attack_point": ["state;P2_SCO", "state;P2_SIT01"],
+        "attack_point": [
+            "state;P2_SCO",
+            "state;P2_SIT01"
+        ],
         "description": "",
         "start": 1594386664,
         "end": 1594386814
     },
     {
         "id": 21,
-        "attack_point": ["state;P1_FCV03D"],
+        "attack_point": [
+            "state;P1_FCV03D"
+        ],
         "description": "",
         "start": 1594388406,
         "end": 1594388470
     },
     {
         "id": 22,
-        "attack_point": ["state;P2_RTR"],
+        "attack_point": [
+            "state;P2_RTR"
+        ],
         "description": "",
         "start": 1594390924,
         "end": 1594391107
     },
     {
         "id": 23,
-        "attack_point": ["state;P1_FCV03D"],
+        "attack_point": [
+            "state;P1_FCV03D"
+        ],
         "description": "",
         "start": 1594398073,
         "end": 1594398171
     },
     {
         "id": 24,
-        "attack_point": ["state;P3_LCP01D"],
+        "attack_point": [
+            "state;P3_LCP01D"
+        ],
         "description": "",
         "start": 1594409103,
         "end": 1594409221
     },
     {
         "id": 25,
-        "attack_point": ["state;P2_LCV01D"],
+        "attack_point": [
+            "state;P2_LCV01D"
+        ],
         "description": "",
         "start": 1594414563,
         "end": 1594414681
     },
     {
         "id": 26,
-        "attack_point": ["state;P1_LCV01D", "state;P1_B3005"],
+        "attack_point": [
+            "state;P1_LCV01D",
+            "state;P1_B3005"
+        ],
         "description": "",
         "start": 1594641066,
         "end": 1594641197
     },
     {
         "id": 27,
-        "attack_point": ["state;P1_B2016", "state;P1_PIT01", "state;P1_B3005"],
+        "attack_point": [
+            "state;P1_B2016",
+            "state;P1_PIT01",
+            "state;P1_B3005"
+        ],
         "description": "",
         "start": 1594646460,
         "end": 1594646880
     },
     {
         "id": 28,
-        "attack_point": ["state;P1_PCV01D", "state;P1_LCV01D"],
+        "attack_point": [
+            "state;P1_PCV01D",
+            "state;P1_LCV01D"
+        ],
         "description": "",
         "start": 1594656668,
         "end": 1594656856
     },
     {
         "id": 29,
-        "attack_point": ["state;P2_AutoSD", "state;P2_VTR01"],
+        "attack_point": [
+            "state;P2_AutoSD",
+            "state;P2_VTR01"
+        ],
         "description": "",
         "start": 1594666382,
         "end": 1594666487
     },
     {
         "id": 30,
-        "attack_point": ["state;P2_SCO", "state;P2_VTR02"],
+        "attack_point": [
+            "state;P2_SCO",
+            "state;P2_VTR02"
+        ],
         "description": "",
         "start": 1594668180,
         "end": 1594668263
     },
     {
         "id": 31,
-        "attack_point": ["state;P1_B2016", "state;P2_AutoSD"],
+        "attack_point": [
+            "state;P1_B2016",
+            "state;P2_AutoSD"
+        ],
         "description": "",
         "start": 1594677311,
         "end": 1594677548
     },
     {
         "id": 32,
-        "attack_point": ["state;P1_FCV03D", "state;P2_VTR01"],
+        "attack_point": [
+            "state;P1_FCV03D",
+            "state;P2_VTR01"
+        ],
         "description": "",
         "start": 1594684262,
         "end": 1594684371
     },
     {
         "id": 33,
-        "attack_point": ["state;P1_LCV01D", "state;P1_LIT01", "state;P2_AutoSD"],
+        "attack_point": [
+            "state;P1_LCV01D",
+            "state;P1_LIT01",
+            "state;P2_AutoSD"
+        ],
         "description": "",
         "start": 1594691581,
         "end": 1594691835
     },
     {
         "id": 34,
-        "attack_point": ["state;P1_PCV01D", "state;P1_B3004", "state;P1_LIT01"],
+        "attack_point": [
+            "state;P1_PCV01D",
+            "state;P1_B3004",
+            "state;P1_LIT01"
+        ],
         "description": "",
         "start": 1595932983,
         "end": 1595933236
     },
     {
         "id": 35,
-        "attack_point": ["state;P1_B3005", "state;P1_FT03", "state;P2_LCV01D"],
+        "attack_point": [
+            "state;P1_B3005",
+            "state;P1_FT03",
+            "state;P2_LCV01D"
+        ],
         "description": "",
         "start": 1595936700,
         "end": 1595936961
     },
     {
         "id": 36,
-        "attack_point": ["state;P1_B3004", "state;P1_LIT01", "state;P2_LCV01D"],
+        "attack_point": [
+            "state;P1_B3004",
+            "state;P1_LIT01",
+            "state;P2_LCV01D"
+        ],
         "description": "",
         "start": 1595944621,
         "end": 1595944883
     },
     {
         "id": 37,
-        "attack_point": ["state;P2_SCO", "state;P2_SIT01", "state;P1_LCV01D", "state;P1_LIT01"],
+        "attack_point": [
+            "state;P2_SCO",
+            "state;P2_SIT01",
+            "state;P1_LCV01D",
+            "state;P1_LIT01"
+        ],
         "description": "",
         "start": 1595951102,
         "end": 1595951359
     },
     {
         "id": 38,
-        "attack_point": ["state;P2_AutoSD", "state;P2_LCV01D"],
+        "attack_point": [
+            "state;P2_AutoSD",
+            "state;P2_LCV01D"
+        ],
         "description": "",
         "start": 1595962021,
         "end": 1595962140
     },
     {
         "id": 39,
-        "attack_point": ["state;P1_PCV01D", "state;P2_VTR02"],
+        "attack_point": [
+            "state;P1_PCV01D",
+            "state;P2_VTR02"
+        ],
         "description": "",
         "start": 1596100560,
         "end": 1596100731
     },
     {
         "id": 40,
-        "attack_point": ["state;P1_FCV03D", "state;P1_FT03", "state;P2_SCO"],
+        "attack_point": [
+            "state;P1_FCV03D",
+            "state;P1_FT03",
+            "state;P2_SCO"
+        ],
         "description": "",
         "start": 1596108603,
         "end": 1596108860
     },
     {
         "id": 41,
-        "attack_point": ["state;P1_B3004", "state;P1_LIT01", "state;P2_SCO"],
+        "attack_point": [
+            "state;P1_B3004",
+            "state;P1_LIT01",
+            "state;P2_SCO"
+        ],
         "description": "",
         "start": 1596117908,
         "end": 1596118163
     },
     {
         "id": 42,
-        "attack_point": ["state;P1_FCV03D", "state;P2_LCV01D"],
+        "attack_point": [
+            "state;P1_FCV03D",
+            "state;P2_LCV01D"
+        ],
         "description": "",
         "start": 1596123900,
         "end": 1596124019
     },
     {
         "id": 43,
-        "attack_point": ["state;P1_B3004", "state;P2_AutoSD"],
+        "attack_point": [
+            "state;P1_B3004",
+            "state;P2_AutoSD"
+        ],
         "description": "",
         "start": 1596127089,
         "end": 1596127291
     },
     {
         "id": 44,
-        "attack_point": ["state;P2_SCO", "state;P2_SIT01", "state;P2_LCV01D"],
+        "attack_point": [
+            "state;P2_SCO",
+            "state;P2_SIT01",
+            "state;P2_LCV01D"
+        ],
         "description": "",
         "start": 1596134523,
         "end": 1596134675
     },
     {
         "id": 45,
-        "attack_point": ["state;P2_AutoSD", "state;P2_VTR01"],
+        "attack_point": [
+            "state;P2_AutoSD",
+            "state;P2_VTR01"
+        ],
         "description": "",
         "start": 1596143585,
         "end": 1596143663
     },
     {
         "id": 46,
-        "attack_point": ["state;P1_FCV03D", "state;P1_LCV01D"],
+        "attack_point": [
+            "state;P1_FCV03D",
+            "state;P1_LCV01D"
+        ],
         "description": "",
         "start": 1596150906,
         "end": 1596150956
     },
     {
         "id": 47,
-        "attack_point": ["state;P1_B2016", "state;P1_PCV01D"],
+        "attack_point": [
+            "state;P1_B2016",
+            "state;P1_PCV01D"
+        ],
         "description": "",
         "start": 1596153671,
         "end": 1596153911
     },
     {
         "id": 48,
-        "attack_point": ["state;P1_B3004", "state;P1_LCV01D", "state;P1_LIT01"],
+        "attack_point": [
+            "state;P1_B3004",
+            "state;P1_LCV01D",
+            "state;P1_LIT01"
+        ],
         "description": "",
         "start": 1596182041,
         "end": 1596182302
     },
     {
         "id": 49,
-        "attack_point": ["state;P2_RTR", "state;P2_LCV01D"],
+        "attack_point": [
+            "state;P2_RTR",
+            "state;P2_LCV01D"
+        ],
         "description": "",
         "start": 1596184800,
         "end": 1596184919
     },
     {
         "id": 50,
-        "attack_point": ["state;P1_B3005", "state;P1_FCV03D", "state;P1_FT03"],
+        "attack_point": [
+            "state;P1_B3005",
+            "state;P1_FCV03D",
+            "state;P1_FT03"
+        ],
         "description": "",
         "start": 1596187259,
         "end": 1596187520
