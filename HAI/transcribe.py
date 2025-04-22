@@ -71,6 +71,7 @@ attack_points = {
     50: ["state;P1_B3005", "state;P1_FCV03D", "state;P1_FT03"],
 }
 
+
 def add_new_attack(start, end):
     global attackID
 

@@ -37,6 +37,9 @@ for file in sys.argv[2:]:
 
             else:  # label is attack
                 if a is None:  # attack.json should contain an attack
+                    # Catch exception for SWaT
+                    if "SWaT" in file and line["malicious"] == "-1":
+                        continue
                     print(f"- attack.json is benign, but label is {line['malicious']}")
                     FAILED = True
                     continue

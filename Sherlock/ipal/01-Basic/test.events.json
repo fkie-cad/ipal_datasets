@@ -1,0 +1,235 @@
+[
+    {
+        "description": "industroyer:industroyer",
+        "start": 1742922604.1942136,
+        "attack_point": [
+            "switch.13:closed",
+            "switch.14:closed"
+        ],
+        "end": 1742922784.4018285,
+        "id": "0",
+        "recovery": 1742922847.2949026
+    },
+    {
+        "description": "drift-off:drift-off",
+        "start": 1742924252.2367709,
+        "end": 1742924739.2759666,
+        "id": "1",
+        "attack_point": [],
+        "recovery": 1742924769.2759666
+    },
+    {
+        "description": "industroyer:industroyer",
+        "start": 1742926251.1947885,
+        "attack_point": [
+            "sgen.0:connected"
+        ],
+        "end": 1742926421.521569,
+        "id": "2",
+        "recovery": 1742926497.248869
+    },
+    {
+        "description": "control center:sgencontrol",
+        "start": 1742928231.189216,
+        "end": 1742928261.2682297,
+        "id": "3 (benign event)",
+        "attack_point": []
+    },
+    {
+        "description": "control-and-freeze:control-and-freeze",
+        "start": 1742929812.2699013,
+        "end": 1742930172.8976083,
+        "id": "4",
+        "attack_point": [],
+        "recovery": 1742930304.3621604
+    },
+    {
+        "description": "control center:Cable Maintenance",
+        "start": 1742933041.2301736,
+        "end": 1742933111.3787377,
+        "id": "5 (benign event)",
+        "attack_point": []
+    },
+    {
+        "description": "arp-spoof:arp-spoof-dos",
+        "start": 1742933403.2674494,
+        "end": 1742933529.526473,
+        "id": "6",
+        "attack_point": [],
+        "recovery": 1742933559.526473
+    },
+    {
+        "description": "industroyer:industroyer",
+        "start": 1742936048.195213,
+        "attack_point": [
+            "switch.15:closed",
+            "switch.16:closed"
+        ],
+        "end": 1742936233.4061418,
+        "id": "7",
+        "recovery": 1742936350.33653
+    },
+    {
+        "description": "control center:Separator Movement",
+        "start": 1742938056.2267296,
+        "end": 1742938093.263869,
+        "id": "8 (benign event)",
+        "attack_point": []
+    },
+    {
+        "description": "drift-off:drift-off",
+        "start": 1742939182.2377434,
+        "end": 1742939676.7295613,
+        "id": "9",
+        "attack_point": [],
+        "recovery": 1742939706.7295613
+    },
+    {
+        "description": "control-and-freeze:control-and-freeze",
+        "start": 1742940856.249995,
+        "end": 1742941406.864951,
+        "id": "10",
+        "attack_point": [],
+        "recovery": 1742941541.28472
+    },
+    {
+        "description": "industroyer:industroyer",
+        "start": 1742942527.200247,
+        "attack_point": [
+            "load.16:connected"
+        ],
+        "end": 1742942708.3687804,
+        "id": "11",
+        "recovery": 1742942775.2566752
+    },
+    {
+        "description": "control center:Transformer Maintenance",
+        "start": 1742943841.2307465,
+        "end": 1742943871.2929306,
+        "id": "12 (benign event)",
+        "attack_point": []
+    },
+    {
+        "description": "control-and-freeze:control-and-freeze",
+        "start": 1742944993.2599447,
+        "end": 1742945351.5945385,
+        "id": "13",
+        "attack_point": [],
+        "recovery": 1742945499.3453484
+    },
+    {
+        "description": "drift-off:drift-off",
+        "start": 1742946908.246947,
+        "end": 1742947502.816791,
+        "id": "14",
+        "attack_point": [],
+        "recovery": 1742947532.816791
+    },
+    {
+        "description": "industroyer:industroyer",
+        "start": 1742947838.2259772,
+        "attack_point": [
+            "sgen.7:target_active_power"
+        ],
+        "end": 1742948015.4100955,
+        "id": "15",
+        "recovery": 1742948133.431685
+    },
+    {
+        "description": "control center:Generator Control",
+        "start": 1742949082.2307525,
+        "end": 1742949112.2784526,
+        "id": "16 (benign event)",
+        "attack_point": []
+    },
+    {
+        "description": "control-and-freeze:control-and-freeze",
+        "start": 1742949924.2669797,
+        "end": 1742950255.657609,
+        "id": "17",
+        "attack_point": [],
+        "recovery": 1742950371.4575217
+    },
+    {
+        "description": "industroyer:industroyer",
+        "start": 1742951857.2361133,
+        "attack_point": [
+            "switch.3:closed",
+            "switch.25:closed"
+        ],
+        "end": 1742952029.5050657,
+        "id": "18",
+        "recovery": 1742952059.5050657
+    },
+    {
+        "description": "arp-spoof:arp-spoof-dos",
+        "start": 1742953785.268002,
+        "end": 1742953913.4897654,
+        "id": "19",
+        "attack_point": [],
+        "recovery": 1742953943.4897654
+    },
+    {
+        "description": "control-and-freeze:control-and-freeze",
+        "start": 1742954587.267881,
+        "end": 1742955147.952014,
+        "id": "20",
+        "attack_point": [],
+        "recovery": 1742955223.3244681
+    },
+    {
+        "description": "control center:trafostep",
+        "start": 1742955920.189304,
+        "end": 1742955950.2732954,
+        "id": "21 (benign event)",
+        "attack_point": []
+    },
+    {
+        "description": "industroyer:industroyer",
+        "start": 1742956259.2360451,
+        "attack_point": [
+            "sgen.6:connected",
+            "sgen.12:connected",
+            "storage.1:connected"
+        ],
+        "end": 1742956437.4130664,
+        "id": "22",
+        "recovery": 1742956518.4365566
+    },
+    {
+        "description": "drift-off:drift-off",
+        "start": 1742957112.2481863,
+        "end": 1742957609.899807,
+        "id": "23",
+        "attack_point": [],
+        "recovery": 1742957639.899807
+    },
+    {
+        "description": "control center:trafostep2",
+        "start": 1742958340.1891963,
+        "end": 1742958370.2365925,
+        "id": "24 (benign event)",
+        "attack_point": []
+    },
+    {
+        "description": "control center:maintenance1",
+        "start": 1742959890.1894352,
+        "end": 1742959950.3827677,
+        "id": "25 (benign event)",
+        "attack_point": []
+    },
+    {
+        "description": "control center:maintenance2",
+        "start": 1742960142.189464,
+        "end": 1742960196.3960202,
+        "id": "26 (benign event)",
+        "attack_point": []
+    },
+    {
+        "description": "control center:maintenance3",
+        "start": 1742961051.1897168,
+        "end": 1742961125.4603136,
+        "id": "27 (benign event)",
+        "attack_point": []
+    }
+]

@@ -1,0 +1,324 @@
+[
+    {
+        "description": "arp-spoof:arp-spoof-dos",
+        "start": 1743599807.6365774,
+        "end": 1743599944.026077,
+        "id": "0",
+        "attack_point": [],
+        "recovery": 1743599974.026077
+    },
+    {
+        "description": "control-and-freeze:control-and-freeze",
+        "start": 1743600362.6279092,
+        "end": 1743600721.0473928,
+        "id": "1",
+        "attack_point": [],
+        "recovery": 1743600781.1273851
+    },
+    {
+        "description": "industroyer:industroyer",
+        "start": 1743601613.1871269,
+        "attack_point": [
+            "switch.150:closed"
+        ],
+        "end": 1743601794.7464159,
+        "id": "2",
+        "recovery": 1743601854.8191006
+    },
+    {
+        "description": "control center:Transformer Maintenance",
+        "start": 1743602827.1756039,
+        "end": 1743603217.721746,
+        "id": "3 (benign event)",
+        "attack_point": []
+    },
+    {
+        "description": "arp-spoof:arp-spoof-dos",
+        "start": 1743603397.6378593,
+        "end": 1743603551.0024269,
+        "id": "4",
+        "attack_point": [],
+        "recovery": 1743603581.0024269
+    },
+    {
+        "description": "control center:Separator Movement",
+        "start": 1743604868.1766295,
+        "end": 1743604932.1687222,
+        "id": "5 (benign event)",
+        "attack_point": []
+    },
+    {
+        "description": "drift-off:drift-off",
+        "start": 1743605821.620838,
+        "end": 1743606307.3852093,
+        "id": "6",
+        "attack_point": [],
+        "recovery": 1743606337.3852093
+    },
+    {
+        "description": "control-and-freeze:control-and-freeze",
+        "start": 1743607615.6301227,
+        "end": 1743608294.572974,
+        "id": "7",
+        "attack_point": [],
+        "recovery": 1743608355.0241947
+    },
+    {
+        "description": "drift-off:drift-off",
+        "start": 1743608400.5462136,
+        "end": 1743608895.6257367,
+        "id": "8",
+        "attack_point": [],
+        "recovery": 1743608925.6257367
+    },
+    {
+        "description": "control center:Generator Bootstrap",
+        "start": 1743609854.1786115,
+        "end": 1743609884.2893035,
+        "id": "9 (benign event)",
+        "attack_point": []
+    },
+    {
+        "description": "industroyer:industroyer",
+        "start": 1743610920.1932154,
+        "attack_point": [
+            "switch.95:closed"
+        ],
+        "end": 1743611091.128593,
+        "id": "10",
+        "recovery": 1743611151.8264155
+    },
+    {
+        "description": "arp-spoof:arp-spoof-dos",
+        "start": 1743612156.638854,
+        "end": 1743612280.8816543,
+        "id": "11",
+        "attack_point": [],
+        "recovery": 1743612310.8816543
+    },
+    {
+        "description": "drift-off:drift-off",
+        "start": 1743612972.5190327,
+        "end": 1743613568.0907028,
+        "id": "12",
+        "attack_point": [],
+        "recovery": 1743613598.0907028
+    },
+    {
+        "description": "control center:Generator Control",
+        "start": 1743613932.1761394,
+        "end": 1743613962.233647,
+        "id": "13 (benign event)",
+        "attack_point": []
+    },
+    {
+        "description": "control-and-freeze:control-and-freeze",
+        "start": 1743615296.6331906,
+        "end": 1743615853.1932735,
+        "id": "14",
+        "attack_point": [],
+        "recovery": 1743615913.2503114
+    },
+    {
+        "description": "control-and-freeze:control-and-freeze",
+        "start": 1743615958.6350935,
+        "end": 1743616284.950085,
+        "id": "15",
+        "attack_point": [],
+        "recovery": 1743616345.0564265
+    },
+    {
+        "description": "drift-off:drift-off",
+        "start": 1743617001.538587,
+        "end": 1743617497.9206042,
+        "id": "16",
+        "attack_point": [],
+        "recovery": 1743617527.9206042
+    },
+    {
+        "description": "arp-spoof:arp-spoof-dos",
+        "start": 1743617931.6394928,
+        "end": 1743618053.758478,
+        "id": "17",
+        "attack_point": [],
+        "recovery": 1743618083.758478
+    },
+    {
+        "description": "control-and-freeze:control-and-freeze",
+        "start": 1743618601.6369884,
+        "end": 1743619160.5797174,
+        "id": "18",
+        "attack_point": [],
+        "recovery": 1743619222.5164695
+    },
+    {
+        "description": "drift-off:drift-off",
+        "start": 1743620329.5226827,
+        "end": 1743620924.958258,
+        "id": "19",
+        "attack_point": [],
+        "recovery": 1743620954.958258
+    },
+    {
+        "description": "control center:Cable Maintenance",
+        "start": 1743621546.1759691,
+        "end": 1743621577.629448,
+        "id": "20 (benign event)",
+        "attack_point": []
+    },
+    {
+        "description": "drift-off:drift-off",
+        "start": 1743622271.5982149,
+        "end": 1743622819.1286905,
+        "id": "21",
+        "attack_point": [],
+        "recovery": 1743622849.1286905
+    },
+    {
+        "description": "arp-spoof:arp-spoof-dos",
+        "start": 1743623558.640129,
+        "end": 1743623691.203215,
+        "id": "22",
+        "attack_point": [],
+        "recovery": 1743623721.203215
+    },
+    {
+        "description": "arp-spoof:arp-spoof-dos",
+        "start": 1743624275.6407182,
+        "end": 1743624380.770214,
+        "id": "23",
+        "attack_point": [],
+        "recovery": 1743624410.770214
+    },
+    {
+        "description": "industroyer:industroyer",
+        "start": 1743625338.2466543,
+        "attack_point": [
+            "switch.48:closed",
+            "switch.192:closed"
+        ],
+        "end": 1743625525.0848649,
+        "id": "24",
+        "recovery": 1743625585.6417575
+    },
+    {
+        "description": "industroyer:industroyer",
+        "start": 1743626017.4399,
+        "attack_point": [
+            "switch.245:closed"
+        ],
+        "end": 1743626199.3377619,
+        "id": "25",
+        "recovery": 1743626229.3377619
+    },
+    {
+        "description": "control center:Separator Movement",
+        "start": 1743627019.1761434,
+        "end": 1743627065.2956336,
+        "id": "26 (benign event)",
+        "attack_point": []
+    },
+    {
+        "description": "drift-off:drift-off",
+        "start": 1743627967.6034966,
+        "end": 1743628457.0899227,
+        "id": "27",
+        "attack_point": [],
+        "recovery": 1743628487.0899227
+    },
+    {
+        "description": "control center:Close Ring",
+        "start": 1743630195.1759148,
+        "end": 1743630225.2778943,
+        "id": "28 (benign event)",
+        "attack_point": []
+    },
+    {
+        "description": "industroyer:industroyer",
+        "start": 1743631547.4362383,
+        "attack_point": [
+            "storage.2:target_active_power_percentage"
+        ],
+        "end": 1743631726.182072,
+        "id": "29",
+        "recovery": 1743631786.439548
+    },
+    {
+        "description": "industroyer:industroyer",
+        "start": 1743632235.333208,
+        "attack_point": [
+            "switch.14:closed",
+            "switch.32:closed"
+        ],
+        "end": 1743632408.6442056,
+        "id": "30",
+        "recovery": 1743632468.8260007
+    },
+    {
+        "description": "industroyer:industroyer",
+        "start": 1743632838.363363,
+        "attack_point": [
+            "switch.303:closed"
+        ],
+        "end": 1743633017.2613015,
+        "id": "31",
+        "recovery": 1743633077.3335671
+    },
+    {
+        "description": "drift-off:drift-off",
+        "start": 1743633625.6103275,
+        "end": 1743634067.5373573,
+        "id": "32",
+        "attack_point": [],
+        "recovery": 1743634097.5373573
+    },
+    {
+        "description": "control center:Open Ring",
+        "start": 1743634443.175731,
+        "end": 1743634473.2967634,
+        "id": "33 (benign event)",
+        "attack_point": []
+    },
+    {
+        "description": "drift-off:drift-off",
+        "start": 1743636530.614431,
+        "end": 1743637471.2895138,
+        "id": "34",
+        "attack_point": [],
+        "recovery": 1743637501.2895138
+    },
+    {
+        "description": "industroyer:industroyer",
+        "start": 1743637556.3154304,
+        "attack_point": [
+            "load.73:connected"
+        ],
+        "end": 1743637776.7912793,
+        "id": "35",
+        "recovery": 1743637837.0378444
+    },
+    {
+        "description": "industroyer:industroyer",
+        "start": 1743638754.4922063,
+        "attack_point": [
+            "sgen.117:connected"
+        ],
+        "end": 1743638949.031749,
+        "id": "36",
+        "recovery": 1743639009.1492393
+    },
+    {
+        "description": "control center:Generator Control",
+        "start": 1743639537.1761541,
+        "end": 1743639567.2895892,
+        "id": "37 (benign event)",
+        "attack_point": []
+    },
+    {
+        "description": "control center:Generator Control",
+        "start": 1743640079.1774833,
+        "end": 1743640109.233572,
+        "id": "38 (benign event)",
+        "attack_point": []
+    }
+]
