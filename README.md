@@ -2,7 +2,7 @@
 
 <img src="./misc/Logo.png" alt="Logo" width="100" height="auto" align="right">
 
-This repository is part of [IPAL](https://github.com/fkie-cad/ipal)  - an Industrial Protocol Abstraction Layer. IPAL aims to establish an abstract representation of industrial network traffic for subsequent unified and protocol-independent industrial intrusion detection. IPAL consists of a [transcriber](https://github.com/fkie-cad/ipal_transcriber) to automatically translate industrial traffic into the IPAL representation, an [IDS Framework](https://github.com/fkie-cad/ipal_ids_framework) implementing various industrial intrusion detection systems (IIDSs), and a collection of evaluation [datasets](https://github.com/fkie-cad/ipal_datasets). For details about IPAL, please refer to our publications listed down below.
+This repository is part of [IPAL](https://github.com/ipal-ids/ipal)  - an Industrial Protocol Abstraction Layer. IPAL aims to establish an abstract representation of industrial network traffic for subsequent unified and protocol-independent industrial intrusion detection. IPAL consists of a [transcriber](https://github.com/ipal-ids/ipal_transcriber) to automatically translate industrial traffic into the IPAL representation, an [IDS Framework](https://github.com/ipal-ids/ipal_ids_framework) implementing various industrial intrusion detection systems (IIDSs), and a collection of evaluation [datasets](https://github.com/ipal-ids/ipal_datasets). For details about IPAL, please refer to our publications listed down below.
 
 This repository contains a collection of datasets for evaluating industrial IDS. Therefore, this repository contains scripts to convert (transcribe) existing datasets into IPAL format. It does <u>not</u> contain the raw datasets nor the datasets transcribed into IPAL. **We merely use placeholders which can be replaced after obtaining the original datasets at the respective publishers** (see link in the table below).
 
@@ -35,11 +35,11 @@ This repository contains a collection of datasets for evaluating industrial IDS.
 
 ## Getting started
 
-If you are new to IPAL and want to learn about the general idea or try out our tutorials, please refer to IPAL's main repository: [https://github.com/fkie-cad/ipal](https://github.com/fkie-cad/ipal).
+If you are new to IPAL and want to learn about the general idea or try out our tutorials, please refer to IPAL's main repository: [https://github.com/ipal-ids/ipal](https://github.com/ipal-ids/ipal).
 
 ###### Prerequisites
 
-Transcribing the datasets requires the `ipal-transcriber` and `tshark` to be installed (see [IPAL - Transcriber](https://github.com/fkie-cad/ipal_transcriber) and https://tshark.dev/setup/install/).
+Transcribing the datasets requires the `ipal-transcriber` and `tshark` to be installed (see [IPAL - Transcriber](https://github.com/ipal-ids/ipal_transcriber) and https://tshark.dev/setup/install/).
 
 On certain operating systems running all available scripts might require additional dependencies. 
 Ensure that the following commands are available:
