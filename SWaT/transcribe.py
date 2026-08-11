@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import gzip
 import json
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
 from pandas import read_excel
 
@@ -32,10 +32,18 @@ def transcribe(fin):
             continue
         row = row[1:]  # Remove row counter
 
-        # Convert timestamp
-        timestamp = int(
-            datetime.strptime(row[0].strip(), "%d/%m/%Y %I:%M:%S %p").timestamp()
-        )
+        # 1. Parse the raw time string from Excel
+        dt_obj = datetime.strptime(row[0].strip(), "%d/%m/%Y %I:%M:%S %p")
+
+        # 2. [CRITICAL] Force the timezone to UTC+1 to match the source data logic.
+        # Although the data originates from Singapore, the timestamps in attacks.json
+        # were generated as if the time was in UTC+1. We must mimic this behavior.
+        utc_plus_1 = timezone(timedelta(hours=1))
+        dt_obj_fixed = dt_obj.replace(tzinfo=utc_plus_1)
+
+        # 3. Convert to Unix timestamp.
+        # Python calculates: (time of UTC+1) -> converts to UTC -> generates timestamp.
+        timestamp = int(dt_obj_fixed.timestamp())
 
         # Convert state
         state = {attributes[i]: round(row[i], 9) for i in range(1, len(row) - 1)}
