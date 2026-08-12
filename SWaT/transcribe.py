@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import gzip
 import json
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timedelta, timezone
 
 from pandas import read_excel
 
